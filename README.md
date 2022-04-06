@@ -6,8 +6,7 @@
 - Unacademy is a Indian online education technology company based in Bangalore<br/>
 - Unacademy provides preparation study material for students aspiring for civil services, bank jobs and other competitive exams in India.<br/>
 - Moreover, the layout is mobile-ready and cross-browser compatible, guaranteeing a great performance. 
-- You can see project here :point_right: [Fly_Plane - Clone](https://f-l-y-plane.netlify.app/)
-
+- You can see project here :point_right: 
 
 
 ## ⚡ Technologies Used  
