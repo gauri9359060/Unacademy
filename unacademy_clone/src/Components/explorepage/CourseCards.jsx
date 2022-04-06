@@ -6,10 +6,7 @@ const Container = styled.div`
  
 `;
 const CourseCards = ({courses}) => {
- 
-
- 
-
+  
   return <Container>
             <div >
                 {
