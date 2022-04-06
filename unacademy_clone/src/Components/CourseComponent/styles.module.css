@@ -1,0 +1,407 @@
+/* Banner css */
+.banner {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0) 0%,
+    rgba(229, 244, 255, 0.44) 100%
+  );
+}
+.BannerText {
+  width: 300%;
+  /* border: 1px solid black; */
+}
+.recap {
+  background-color: rgb(0, 60, 143);
+  color: white;
+  padding: 6px 6px 6px 12px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150% !important;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: fit-content;
+}
+.head {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 150%;
+  color: #3c4852;
+  width: 100%;
+  margin: 5% auto 5% auto;
+  position: relative;
+}
+.subhead {
+  color: #3c4852;
+  margin: 0px auto 40px auto;
+  width: 80%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: normal;
+  line-height: 150%;
+}
+
+.Subscriptionbtn {
+  align-items: center;
+  cursor: pointer;
+  border-radius: 6px;
+  min-height: 48px;
+  width: 217px;
+  height: 60px;
+  transition: box-shadow 300ms ease-in-out, transform 300ms ease-in-out,
+    background-color 300ms ease-in-out;
+  margin: auto;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+/* Iconic subscription Css*/
+
+.Triangle {
+  width: 0;
+  height: 0;
+  border-left: 72px solid transparent;
+  border-right: 72px solid transparent;
+  border-bottom: 35px solid white;
+  position: relative;
+  left: calc(50% - 71px);
+  top: -54px;
+  z-index: 1;
+}
+.iconic {
+  background-color: white;
+  box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
+  border-radius: 8px;
+  position: relative;
+  top: -60px;
+  text-align: center;
+  width: 1136px;
+  margin: auto;
+  padding-top: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.iconicIntro {
+  background-color: #ffad3b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.iconicHead {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 120%;
+  color: #3c4852;
+  margin: 0px;
+  margin: 8px 0;
+}
+.iconicSubHead {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3c4852;
+  margin: 0px;
+  font-weight: normal;
+}
+.iconicfeatures {
+  display: flex;
+  margin-left: 96px;
+  margin-right: 96px;
+  margin-top: 74px;
+  flex-wrap: wrap;
+  column-gap: 2em;
+}
+.iconicOffer {
+  width: 416px;
+  margin-bottom: 66px;
+  text-align: left;
+  display: flex;
+  column-gap: 16px;
+}
+.imgIconicOffer {
+  display: block;
+  max-width: 100%;
+  width: initial;
+  height: 2em;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 1%;
+  padding: 1%;
+}
+.iconicH3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  color: #3c4852;
+  margin: 0px;
+}
+.iconicP {
+  font-size: 18px;
+  line-height: 150%;
+  color: #3c4852;
+  margin-top: 16px;
+}
+.iconicPricing {
+  padding: 64px 96px;
+  display: flex;
+  justify-content: space-between;
+}
+.pricingText {
+  width: 600px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  color: #3c4852;
+  margin: 0px;
+}
+.fees{
+    color: #2d81f7;
+    padding-left: 5px;
+}
+.Pricebtn{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    color: #08bd80;
+    margin: 0px;
+    display: inline-block;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-style: dashed;
+    border-color: #08bd80;
+    padding: 0;
+    padding-bottom: 4px;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+
+/*Plus subscription Css*/
+
+.plus {
+  background-color: white;
+  box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
+  border-radius: 8px;
+  position: relative;
+  top: -60px;
+  text-align: center;
+  width: 1136px;
+  margin: auto;
+  padding-top: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 4em;
+
+}
+.plusIntro {
+  background-color: #ffad3b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.plusHead {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 120%;
+  color: #3c4852;
+  margin: 0px;
+  margin: 8px 0;
+}
+.plusSubHead {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3c4852;
+  margin: 0px;
+  font-weight: normal;
+}
+.plusfeatures {
+  display: flex;
+  margin-left: 96px;
+  margin-right: 96px;
+  margin-top: 74px;
+  flex-wrap: wrap;
+  column-gap: 2em;
+}
+.plusOffer {
+  width: 416px;
+  margin-bottom: 66px;
+  text-align: left;
+  display: flex;
+  column-gap: 16px;
+}
+.imgplusOffer {
+  display: block;
+  max-width: 100%;
+  width: initial;
+  height: 2em;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 1%;
+  padding: 1%;
+}
+.plusH3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  color: #3c4852;
+  margin: 0px;
+}
+.plusP {
+  font-size: 18px;
+  line-height: 150%;
+  color: #3c4852;
+  margin-top: 16px;
+}
+.plusPricing {
+  padding: 64px 96px;
+  display: flex;
+  justify-content: space-between;
+}
+.pricingText {
+  width: 600px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  color: #3c4852;
+  margin: 0px;
+}
+.fees{
+    color: #2d81f7;
+    padding-left: 5px;
+}
+.Pricebtn{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    color: #08bd80;
+    margin: 0px;
+    display: inline-block;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-style: dashed;
+    border-color: #08bd80;
+    padding: 0;
+    padding-bottom: 4px;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+
+/* Lite Subscription Css */
+
+.lite {
+  background-color: white;
+  box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
+  border-radius: 8px;
+  position: relative;
+  top: -60px;
+  text-align: center;
+  width: 1136px;
+  margin: auto;
+  padding-top: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 2em;
+}
+.liteIntro {
+  background-color: #ffad3b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.liteHead {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 120%;
+  color: #3c4852;
+  margin: 0px;
+  margin: 8px 0;
+}
+.liteSubHead {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3c4852;
+  margin: 0px;
+  font-weight: normal;
+}
+.litefeatures {
+  display: flex;
+  margin-left: 96px;
+  margin-right: 96px;
+  margin-top: 74px;
+  flex-wrap: wrap;
+  column-gap: 2em;
+}
+.liteOffer {
+  width: 416px;
+  margin-bottom: 66px;
+  text-align: left;
+  display: flex;
+  column-gap: 16px;
+}
+.imgliteOffer {
+  display: block;
+  max-width: 100%;
+  width: initial;
+  height: 2em;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 1%;
+  padding: 1%;
+}
+.liteH3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  color: #3c4852;
+  margin: 0px;
+}
+.liteP {
+  font-size: 18px;
+  line-height: 150%;
+  color: #3c4852;
+  margin-top: 16px;
+}
+.litePricing {
+  padding: 64px 96px;
+  display: flex;
+  justify-content: space-between;
+}
+

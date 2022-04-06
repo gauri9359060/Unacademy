@@ -146,7 +146,7 @@ const ragisterCloser=()=>{
         <StyledInput placeholder="Enter OTP" type="number" />
         <StyledLogButton> Login</StyledLogButton>
         
-         
+
         </StyledForm>
       </StyledMainDiv>
       )}

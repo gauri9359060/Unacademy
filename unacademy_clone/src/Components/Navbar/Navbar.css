@@ -1,0 +1,8 @@
+.font{
+    font-family: sans-serif;
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
