@@ -2,9 +2,12 @@ import React from 'react'
 import styles from './styles.module.css'
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 const Banner = () => {
+    const navigate=useNavigate()
     const GotoSubscription = () => {
         console.log("goto subscription");
+        navigate('/subscription');
     }
     return (
         <div className={styles.banner}>
