@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-import styled from 'styled-components'
+import React,{useState} from 'react';
+import styled from 'styled-components';
 import ClearIcon from '@mui/icons-material/Clear';
 
 
@@ -155,4 +155,4 @@ const ragisterCloser=()=>{
     </div>
   )
     }
-export default Login ;
+export default Login;
