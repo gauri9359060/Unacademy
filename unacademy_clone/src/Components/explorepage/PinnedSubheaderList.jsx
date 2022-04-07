@@ -18,7 +18,7 @@ export default function PinnedSubheaderList({ courses }) {
         bgcolor: "background.paper",
         position: "relative",
         overflow: "auto",
-        maxHeight: 600,
+        maxHeight: 700,
         "& ul": { padding: 0 },
       }}
     >

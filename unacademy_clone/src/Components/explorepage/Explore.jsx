@@ -5,6 +5,7 @@ import styles from "../Navbar/Navbar.css";
 import SearchIcon from "@mui/icons-material/Search";
 import PinnedSubheaderList from "./PinnedSubheaderList";
 import CourseCards from "./CourseCards";
+import Footer from "./Footer";
 
 const Container = styled.div`
   background-image: linear-gradient(
@@ -43,7 +44,9 @@ const Search = styled.input`
 
 const ContentWrapper= styled.div`
   display:flex;
-  margin-top:100px;
+  margin-top:30px;
+  max-width:80%;
+  margin:auto;
 `
 const Explore = () => {
   const [courses, setCourses] = useState([]);
@@ -69,15 +72,16 @@ const Explore = () => {
           <Search placeholder="Search for your goal" />
         </SearchBox>
 
-        <ContentWrapper>
+       
+      </Header>
+      <ContentWrapper>
         <div className={styles.scroller}>
         <PinnedSubheaderList courses={courses}/>
         </div>
-            
             <CourseCards courses={courses}/>
         </ContentWrapper>
-      </Header>
     </Container>
+
   );
 };
 

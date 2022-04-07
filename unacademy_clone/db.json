@@ -3,461 +3,543 @@
     {
       "id": 1,
       "title": "Unacademy Icons",
-      "card":[
-          {
-            "logo": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png",
-            "name": "Icons"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png",
+          "name": "Icons"
+        }
+      ]
     },
     {
       "id": 2,
       "title": "JEE and NEET Preparation",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "IIT JEE"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "NEET UG"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "NEET UG (Assamese)"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "NEET UG (Super 60)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "IIT JEE"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "NEET UG"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "NEET UG (Assamese)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "NEET UG (Super 60)"
+        }
+      ]
     },
     {
       "id": 3,
       "title": "UPSC CSE",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "UPSC CSE - Optional"
-          }, {
-            "logo": "https://static.uacdn.net/topology/KSCGY/icon/origin.png",
-            "name": "UPSC CSE - GS"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "UPSC CSE - Optional"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/KSCGY/icon/origin.png",
+          "name": "UPSC CSE - GS"
+        }
+      ]
     },
     {
       "id": 4,
       "title": "GATE, ESE and IIT-JAM",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/SIFWL/icon/origin.png",
-            "name": "IIT JAM"
-          }, {
-            "logo": "https://static.uacdn.net/topology/PESHE/icon/origin.png",
-            "name": "GATE & ESE"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "SSC JE & State AE Exams"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/SIFWL/icon/origin.png",
+          "name": "IIT JAM"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/PESHE/icon/origin.png",
+          "name": "GATE & ESE"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "SSC JE & State AE Exams"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "CUCET",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "CUET (UG Commerce)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "CUET (UG Commerce)"
+        }
+      ]
     },
     {
       "id": 6,
       "title": "Govt Exams",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/RTPSX/icon/origin.png",
-            "name": "Bank Exams"
-          }, {
-            "logo": "https://static.uacdn.net/topology/QJEJG/icon/origin.png",
-            "name": "Railway Exams"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Bank Regulatory Body Exams"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/VLEMN/icon/origin_nYdCk3H.png",
-            "name": "SSC Exams (Non Technical)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Bank Exams - Tamil"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Bank Exams - Telugu"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Bank Exams - Kannada"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Insurance Exams"
-          }, {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Supreme, High & District Courts"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Stenographer Exam"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/RTPSX/icon/origin.png",
+          "name": "Bank Exams"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/QJEJG/icon/origin.png",
+          "name": "Railway Exams"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Bank Regulatory Body Exams"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/VLEMN/icon/origin_nYdCk3H.png",
+          "name": "SSC Exams (Non Technical)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Bank Exams - Tamil"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Bank Exams - Telugu"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Bank Exams - Kannada"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Insurance Exams"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Supreme, High & District Courts"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Stenographer Exam"
+        }
+      ]
     },
     {
       "id": 7,
       "title": "State PSC",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/QOIVT/icon/origin.png",
-            "name": "BPSC"
-          }, {
-            "logo": "https://static.uacdn.net/topology/AELON/icon/origin.png",
-            "name": "CGPSC"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/UQCMN/icon/origin.png",
-            "name": "WBPSC"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/GNFFE/icon/origin.png",
-            "name": "MPSC"
-          }, {
-            "logo": "https://static.uacdn.net/topology/ZISFF/icon/origin.png",
-            "name": "TNPSC"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/ZIUBD/icon/origin.png",
-            "name": "kerala PSC"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/RJVOD/icon/origin.png",
-            "name": "GPSC"
-          }, {
-            "logo": "https://static.uacdn.net/topology/XTKHH/icon/origin.png",
-            "name": "OPSC"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/XCTVJ/icon/origin_eigNPeT.png",
-            "name": "JPSC"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/GWDPV/icon/origin.png",
-            "name": "UPPSC & UPSSSC"
-          }, {
-            "logo": "https://static.uacdn.net/topology/GWDPV/icon/origin.png",
-            "name": "MPPSC & VYAPAM"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/QKHZF/icon/origin.png",
-            "name": "APPSC & TSPSC"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/SCANJ/icon/origin.png",
-            "name": "RPSC"
-          }, {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Maharashtra Bharti Exams"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "RPSC Grade I Teacher"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "UPSSSC VDO"
-          }, {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "RPSC Grade II Teacher"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Maharashtra Group C Services"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Gujarat Class 3 Exams"
-          }, {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Karnataka Teaching Exams"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "WBP & Gen Combined Exams"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Kerala Administrative Services"
-          }, {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Odisha Teaching Exams"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Maharashtra Technical Services"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/QOIVT/icon/origin.png",
+          "name": "BPSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/AELON/icon/origin.png",
+          "name": "CGPSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/UQCMN/icon/origin.png",
+          "name": "WBPSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/GNFFE/icon/origin.png",
+          "name": "MPSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/ZISFF/icon/origin.png",
+          "name": "TNPSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/ZIUBD/icon/origin.png",
+          "name": "kerala PSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/RJVOD/icon/origin.png",
+          "name": "GPSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/XTKHH/icon/origin.png",
+          "name": "OPSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/XCTVJ/icon/origin_eigNPeT.png",
+          "name": "JPSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/GWDPV/icon/origin.png",
+          "name": "UPPSC & UPSSSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/GWDPV/icon/origin.png",
+          "name": "MPPSC & VYAPAM"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/QKHZF/icon/origin.png",
+          "name": "APPSC & TSPSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/SCANJ/icon/origin.png",
+          "name": "RPSC"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Maharashtra Bharti Exams"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "RPSC Grade I Teacher"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "UPSSSC VDO"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "RPSC Grade II Teacher"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Maharashtra Group C Services"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Gujarat Class 3 Exams"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Karnataka Teaching Exams"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "WBP & Gen Combined Exams"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Kerala Administrative Services"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Odisha Teaching Exams"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Maharashtra Technical Services"
+        }
+      ]
     },
-   
+
     {
       "id": 5,
       "title": "CUCET",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "CUET (UG Commerce)"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "Maharashtra Technical Services"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "CUET (UG Commerce)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "Maharashtra Technical Services"
+        }
+      ]
     },
     {
       "id": 4,
       "title": "GATE, ESE and IIT-JAM",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/SIFWL/icon/origin.png",
-            "name": "IIT JAM"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/SIFWL/icon/origin.png",
+          "name": "IIT JAM"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "Defence Exams",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "CUET (UG Commerce)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "CUET (UG Commerce)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "NET Exams",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "CUET (UG Commerce)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "CUET (UG Commerce)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "NEET PG",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "NEET PG"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "NEET PG"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "Teaching Exams",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "CUET (UG Commerce)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "CUET (UG Commerce)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "CA",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "CUET (UG Commerce)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "CUET (UG Commerce)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "State CET",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "CUET (UG Commerce)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "CUET (UG Commerce)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "CS",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/test_default.png",
-            "name": "CUET (UG Commerce)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/test_default.png",
+          "name": "CUET (UG Commerce)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "MBBS PROFFESIONAL",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "Foreign studies",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "Judicary Exams",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "MBBS PROFFESIONAL",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "UPSC",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "MPSC",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "IT",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "CS",
-      "card":[
-           {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          },
-          {
-            "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-            "name": "CUET (Language & General Test)"
-          }, {
-            "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-            "name": "CUET (UG Science)"
-          }
-        ]
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        }
+      ]
+    }
+  ],
+  "footer":[
+    {
+      "heading":"Company",
+      "content":[{
+        "title" :"About us"
+      },
+      {
+        "title" :"Careers"
+      },
+      {
+        "title" :"Blogs"
+      },
+      {
+        "title" :"Privacy Policy"
+      },
+      {
+        "title" :"Terms and Conditions"
+      }
+    ]
+    },
+    {
+      "heading":"Popular Goals",
+      "content":[{
+        "title" :"IIT JEE"
+      },
+      {
+        "title" :"UPSC CSE GS"
+      },
+      {
+        "title" :"SSC Exams"
+      },
+      {
+        "title" :"CBSE class 12"
+      },
+      {
+        "title" :"NEET UG"
+      }
+    ]
+    },
+    {
+      "heading":"Other Links",
+      "content":[{
+        "title" :"User Guidlines"
+      },
+      {
+        "title" :"Site map"
+      },
+      {
+        "title" :"Refund Policy"
+      },
+      {
+        "title" :"Takedown Policy"
+      }
+    ]
     }
   ]
-  
 }
