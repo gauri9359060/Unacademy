@@ -1,4 +1,4 @@
-import React,{ useState, useEffect }  from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import NavbarTwo from "../Navbar/NavbarTwo";
 import styles from "../Navbar/Navbar.css";
@@ -42,7 +42,7 @@ const Search = styled.input`
   border: none;
 `;
 
-const ContentWrapper= styled.div`
+const ContentWrapper = styled.div`
   display:flex;
   margin-top:30px;
   max-width:80%;
@@ -55,7 +55,7 @@ const Explore = () => {
   }, []);
 
   const getData = () => {
-    fetch(" http://localhost:3001/courses")
+    fetch(" http://localhost:3000/courses")
       .then((res) => res.json())
       .then((res) => setCourses(res));
   };
@@ -72,14 +72,14 @@ const Explore = () => {
           <Search placeholder="Search for your goal" />
         </SearchBox>
 
-       
+
       </Header>
       <ContentWrapper>
         <div className={styles.scroller}>
-        <PinnedSubheaderList courses={courses}/>
+          <PinnedSubheaderList courses={courses} />
         </div>
-            <CourseCards courses={courses}/>
-        </ContentWrapper>
+        <CourseCards courses={courses} />
+      </ContentWrapper>
     </Container>
 
   );
