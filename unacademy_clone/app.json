@@ -1,7 +1,7 @@
 {
-    "buildpacks": [
-      {
-        "url": "mars/create-react-app"
-      }
-    ]
+    "root": "build/",
+    "routes": {
+      "/**": "index.html"
+    },
+    "https_only": true
   }
