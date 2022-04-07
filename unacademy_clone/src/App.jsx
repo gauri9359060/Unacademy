@@ -16,9 +16,10 @@ function App() {
 
       
       <Login />
+
       <UserNavigation/>
-        {/* <Explore/>
-        <Footer/> */}
+        <Explore/>
+        <Footer/>
 
     </div>
   );
