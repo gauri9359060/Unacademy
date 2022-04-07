@@ -7,6 +7,7 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import styles from './Navbar.css'
 
+
 const NavbarWrapper = styled.nav`
   width: 80%;
   margin: auto;
@@ -43,15 +44,22 @@ const Topflex = styled.div`
 `;
 
 const NavBarTwo = () => {
+    
+
+    
+
+
   return (
-    <NavbarWrapper className={styles.font}>
+ 
+      <NavbarWrapper className={styles.font}>
       <div>
         <img
           src="https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=384"
           alt="unacademy logo"
         />
       </div>
-      <Topflex>
+     
+        <Topflex>
           <NotificationsNoneRoundedIcon style={{color:"grey"}}/>
 
             <Progress>
@@ -69,7 +77,14 @@ const NavBarTwo = () => {
             </div>
 
       </Topflex>
+    
+     
+      
+
+      
+      
     </NavbarWrapper>
+    
   );
 };
 

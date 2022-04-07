@@ -1,9 +1,9 @@
 import './App.css';
 
-import { Login } from './Components/Login/login';
+import { Login } from './Components/Login/Login';
 
 // import Home from './Components/HomeComponent/Home';
-import UserNavigation from './Routes/UserNavigation';
+// import UserNavigation from './Routes/UserNavigation';
 import Explore from './Components/explorepage/Explore';
 import Footer from './Components/explorepage/Footer';
 
@@ -15,9 +15,9 @@ function App() {
     <div className="App">
 
       
-      <Login />
-
-      <UserNavigation/>
+      
+<Login/>
+    
         <Explore/>
         <Footer/>
 
