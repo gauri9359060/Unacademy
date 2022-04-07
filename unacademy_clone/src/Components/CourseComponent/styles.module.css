@@ -57,13 +57,15 @@
   min-height: 48px;
   width: 217px;
   height: 60px;
-  transition: box-shadow 300ms ease-in-out, transform 300ms ease-in-out,
-    background-color 300ms ease-in-out;
   margin: auto;
   margin-bottom: 1em;
   display: inline-block;
 }
-
+.Subscriptionbtn:hover{
+  transition: box-shadow 300ms ease-in-out, transform 300ms ease-in-out,
+    background-color 300ms ease-in-out;
+  background-color: #08bd80;  
+}
 /* Iconic subscription Css*/
 
 .Triangle {
@@ -193,7 +195,24 @@
     cursor: pointer;
 }
 
-
+/* curosel 1 CSS */
+.Curosel1{
+  display: flex;
+  overflow-y: hidden;
+  width: 80%;
+  margin: auto;
+  height: 430px;
+  border: none;
+  border-radius: 8px;
+}
+.Curosel1::-webkit-scrollbar {
+  display: none;
+}
+.Curosel1>*{
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+}
 
 /*Plus subscription Css*/
 
@@ -404,4 +423,3 @@
   display: flex;
   justify-content: space-between;
 }
-

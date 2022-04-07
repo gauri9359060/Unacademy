@@ -230,9 +230,8 @@
         }
       ]
     },
-
     {
-      "id": 5,
+      "id": 8,
       "title": "CUCET",
       "card": [
         {
@@ -254,7 +253,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 24,
       "title": "GATE, ESE and IIT-JAM",
       "card": [
         {
@@ -264,7 +263,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 9,
       "title": "Defence Exams",
       "card": [
         {
@@ -282,7 +281,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 10,
       "title": "NET Exams",
       "card": [
         {
@@ -300,7 +299,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 11,
       "title": "NEET PG",
       "card": [
         {
@@ -310,7 +309,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 12,
       "title": "Teaching Exams",
       "card": [
         {
@@ -328,7 +327,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 13,
       "title": "CA",
       "card": [
         {
@@ -342,7 +341,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 14,
       "title": "State CET",
       "card": [
         {
@@ -356,7 +355,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 15,
       "title": "CS",
       "card": [
         {
@@ -374,7 +373,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 16,
       "title": "MBBS PROFFESIONAL",
       "card": [
         {
@@ -388,7 +387,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 17,
       "title": "Foreign studies",
       "card": [
         {
@@ -398,7 +397,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 18,
       "title": "Judicary Exams",
       "card": [
         {
@@ -408,7 +407,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 19,
       "title": "MBBS PROFFESIONAL",
       "card": [
         {
@@ -422,7 +421,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 20,
       "title": "UPSC",
       "card": [
         {
@@ -436,7 +435,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 21,
       "title": "MPSC",
       "card": [
         {
@@ -450,7 +449,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 22,
       "title": "IT",
       "card": [
         {
@@ -464,7 +463,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 23,
       "title": "CS",
       "card": [
         {
@@ -486,60 +485,63 @@
       ]
     }
   ],
-  "footer":[
+  "footer": [
     {
-      "heading":"Company",
-      "content":[{
-        "title" :"About us"
-      },
-      {
-        "title" :"Careers"
-      },
-      {
-        "title" :"Blogs"
-      },
-      {
-        "title" :"Privacy Policy"
-      },
-      {
-        "title" :"Terms and Conditions"
-      }
-    ]
+      "heading": "Company",
+      "content": [
+        {
+          "title": "About us"
+        },
+        {
+          "title": "Careers"
+        },
+        {
+          "title": "Blogs"
+        },
+        {
+          "title": "Privacy Policy"
+        },
+        {
+          "title": "Terms and Conditions"
+        }
+      ]
     },
     {
-      "heading":"Popular Goals",
-      "content":[{
-        "title" :"IIT JEE"
-      },
-      {
-        "title" :"UPSC CSE GS"
-      },
-      {
-        "title" :"SSC Exams"
-      },
-      {
-        "title" :"CBSE class 12"
-      },
-      {
-        "title" :"NEET UG"
-      }
-    ]
+      "heading": "Popular Goals",
+      "content": [
+        {
+          "title": "IIT JEE"
+        },
+        {
+          "title": "UPSC CSE GS"
+        },
+        {
+          "title": "SSC Exams"
+        },
+        {
+          "title": "CBSE class 12"
+        },
+        {
+          "title": "NEET UG"
+        }
+      ]
     },
     {
-      "heading":"Other Links",
-      "content":[{
-        "title" :"User Guidlines"
-      },
-      {
-        "title" :"Site map"
-      },
-      {
-        "title" :"Refund Policy"
-      },
-      {
-        "title" :"Takedown Policy"
-      }
-    ]
+      "heading": "Other Links",
+      "content": [
+        {
+          "title": "User Guidlines"
+        },
+        {
+          "title": "Site map"
+        },
+        {
+          "title": "Refund Policy"
+        },
+        {
+          "title": "Takedown Policy"
+        }
+      ]
     }
   ]
 }
