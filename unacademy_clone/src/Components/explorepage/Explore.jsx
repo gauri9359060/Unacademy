@@ -8,6 +8,7 @@ import CourseCards from "./CourseCards";
 import Footer from "./Footer";
 import Navbar from "../Navbar/Navbar";
 
+
 const Container = styled.div`
   background-image: linear-gradient(
     180deg,
@@ -20,11 +21,20 @@ const Header = styled.div`
   background-repeat: no-repeat;
   background-position: bottom right;
   margin: auto;
-  background-position: 100% 100%;
   max-width: 80%;
+  margin-bottom:50px;
   padding-top: 70px;
   padding-left: 30px;
   background-image: url(https://static.uacdn.net/production/_next/static/images/goal/managegoal-test-prep-light.svg);
+  @media (max-width: 768px) {
+    max-width:100%;
+  }
+  @media (max-width: 375px) {
+    margin-left:0px;
+    background:none;
+    position:sticky;
+  }
+
 `;
 
 const SearchBox = styled.div`
@@ -36,6 +46,12 @@ const SearchBox = styled.div`
   column-gap: 10px;
   margin-top: 10px;
   border-radius: 5px;
+  @media (max-width: 768px) {
+    max-width:700px;
+  }
+  @media (min-width: 375px) {
+    max-width:800px;
+  }
 `;
 
 const Search = styled.input`
@@ -45,7 +61,6 @@ const Search = styled.input`
 
 const ContentWrapper = styled.div`
   display:flex;
-  margin-top:30px;
   max-width:80%;
   margin:auto;
 `
@@ -75,6 +90,7 @@ const Explore = () => {
 
 
       </Header>
+
       <ContentWrapper>
         <div className={styles.scroller}>
           <PinnedSubheaderList courses={courses} />

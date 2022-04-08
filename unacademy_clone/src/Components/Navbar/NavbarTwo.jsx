@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import NotificationsNoneRoundedIcon from "@mui/icons-material/NotificationsNoneRounded";
 import WhatshotSharpIcon from '@mui/icons-material/WhatshotSharp';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import styles from './Navbar.css'
+import Dropdown from "../explorepage/Dropdown.jsx";
 
 
 const NavbarWrapper = styled.nav`
@@ -19,9 +19,13 @@ const NavbarWrapper = styled.nav`
   & > div {
     padding: 10px;
   }
+  @media (max-width: 768px) {
+      max-width:80%;
+  }
 `;
 
 const Progress = styled.div`
+    max-height:20px;
     border-radius:50px;
     width:auto;
     display:flex;
@@ -36,11 +40,19 @@ const Progress = styled.div`
     &:hover{
         opacity:1;
     }
+    @media (max-width: 768px) {
+      max-height:30px;
+  }
+  @media (max-width: 375px) {
+      max-height:30px;
+      display:none;
+  }
 `
 
 const Topflex = styled.div`
   display: flex;
   column-gap:10px;
+  padding:0px;
 `;
 
 const NavBarTwo = () => {
@@ -58,9 +70,14 @@ const NavBarTwo = () => {
           alt="unacademy logo"
         />
       </div>
+
+      <Topflex>
+          <NotificationsNoneRoundedIcon style={{color:"grey", cursor:"pointer"}}/>
+
      
         <Topflex>
           <NotificationsNoneRoundedIcon style={{color:"grey"}}/>
+
 
             <Progress>
             <div style={{ width: 15, height: 15 }}>
@@ -73,7 +90,9 @@ const NavBarTwo = () => {
             </Progress>
 
             <div>
-                <AccountCircleIcon style={{ color:"gray",width: 30, height: 30}}/>
+                {/* <AccountCircleIcon style={{ color:"gray",width: 30, height: 30,cursor:"pointer"}}/> */}
+                <Dropdown/>
+
             </div>
 
       </Topflex>

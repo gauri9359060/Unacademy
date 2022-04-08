@@ -370,7 +370,9 @@
       ]
     },
     {
+
       "id": 24,
+
       "title": "GATE, ESE and IIT-JAM",
       "card": [
         {
@@ -380,7 +382,9 @@
       ]
     },
     {
+
       "id": 9,
+
       "title": "Defence Exams",
       "card": [
         {
@@ -398,7 +402,10 @@
       ]
     },
     {
+
+
       "id": 10,
+
       "title": "NET Exams",
       "card": [
         {
@@ -416,6 +423,8 @@
       ]
     },
     {
+   
+
       "id": 11,
       "title": "NEET PG",
       "card": [
@@ -444,6 +453,8 @@
       ]
     },
     {
+     
+
       "id": 13,
       "title": "CA",
       "card": [
@@ -458,6 +469,7 @@
       ]
     },
     {
+
       "id": 14,
       "title": "State CET",
       "card": [
@@ -472,6 +484,7 @@
       ]
     },
     {
+
       "id": 15,
       "title": "CS",
       "card": [
@@ -490,6 +503,7 @@
       ]
     },
     {
+
       "id": 16,
       "title": "MBBS PROFFESIONAL",
       "card": [
@@ -504,6 +518,7 @@
       ]
     },
     {
+
       "id": 17,
       "title": "Foreign studies",
       "card": [
@@ -514,6 +529,7 @@
       ]
     },
     {
+
       "id": 18,
       "title": "Judicary Exams",
       "card": [
@@ -524,7 +540,9 @@
       ]
     },
     {
+
       "id": 19,
+
       "title": "MBBS PROFFESIONAL",
       "card": [
         {
@@ -538,7 +556,9 @@
       ]
     },
     {
+
       "id": 20,
+
       "title": "UPSC",
       "card": [
         {
@@ -552,7 +572,9 @@
       ]
     },
     {
+
       "id": 21,
+
       "title": "MPSC",
       "card": [
         {
@@ -566,7 +588,9 @@
       ]
     },
     {
+  
       "id": 22,
+
       "title": "IT",
       "card": [
         {
@@ -581,6 +605,7 @@
     },
     {
       "id": 23,
+
       "title": "CS",
       "card": [
         {
@@ -598,7 +623,7 @@
         {
           "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
           "name": "CUET (UG Science)"
-        }
+        }    
       ]
     }
   ],
