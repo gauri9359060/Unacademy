@@ -10,7 +10,7 @@ export default function LoginButton() {
     
     <Stack direction="row" spacing={2}>
       <Button variant="contained" color="success">
-      <Login/>
+         Login
       </Button>
     </Stack>
   );

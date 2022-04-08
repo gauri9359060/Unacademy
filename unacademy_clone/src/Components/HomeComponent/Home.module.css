@@ -1,7 +1,6 @@
 .headerh1{
-    border:1px solid black;
-    width: 800px;
-    padding-top: 100px;
+    width: 900px;
+    padding-top: 150px;
     display: flex;
     flex-direction: column;
 }
@@ -9,4 +8,65 @@
     font-size: 56px;
     color: #3C4852;
     font-weight: 500;
+}
+.headercourse{
+    margin-top: 40px;
+    display: flex;
+    column-gap: 20px;
+}
+.headercourse  h4{
+    color: #08bd80;
+}
+.cardCont{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin: auto;
+    margin-top:100px;
+    grid-gap: 50px;
+    line-height: 1.8;
+}
+.cont{
+    width: 350px;
+    margin-left: 15px;
+}
+.cardCont img{
+    width:100%;
+    margin: auto;
+}
+
+.innerCont{
+    width: 400px;
+}
+.mobileImage{
+    width: 500px;
+    height: auto;
+}
+.mobileImage img{
+    height: 100%;
+    width: 100%;
+}
+.leftBox{
+    padding: 100px;
+    width: 30%;
+}
+.appBtn{
+    padding-top: 40px;
+    width: 150px;
+    height: 50px;
+}
+.RatingCont{
+    padding: 150px;
+    width: 25%;
+}
+.rateCard{
+   display: flex;
+   background-image: url("https://static.uacdn.net/web-cms/highlightgoals_96d24a04e7_a8e8de225d.svg?q=75&w=384&fm=webp");
+}
+.ratingCard{
+    width:280px;
+    box-shadow: 5px 5px 5px 5px rgb(249, 247, 247);
+    height:180px;
+    margin:20px;
+    border-radius: 10px;
 }

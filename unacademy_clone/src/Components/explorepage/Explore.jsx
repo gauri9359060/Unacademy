@@ -70,7 +70,7 @@ const Explore = () => {
   }, []);
 
   const getData = () => {
-    fetch("http://localhost:3000/courses")
+    fetch("http://localhost:3001/courses")
       .then((res) => res.json())
       .then((res) => setCourses(res));
   };
