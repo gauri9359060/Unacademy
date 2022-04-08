@@ -1,5 +1,267 @@
 {
   "users": [],
+  "Price": [
+    {
+      "type": "plus",
+      "months": "36",
+      "price": "2,569",
+      "save": "66%",
+      "total": "92,490",
+      "id": 1
+    },
+    {
+      "type": "plus",
+      "months": "24",
+      "price": "3,104",
+      "save": "59%",
+      "total": "74,490",
+      "id": 2
+    },
+    {
+      "type": "plus",
+      "months": "18",
+      "price": "3,300",
+      "save": "56%",
+      "total": "59,400",
+      "id": 3
+    },
+    {
+      "type": "plus",
+      "months": "12",
+      "price": "4,333",
+      "save": "42%",
+      "total": "51,990",
+      "id": 4
+    },
+    {
+      "type": "plus",
+      "months": "6",
+      "price": "6,748",
+      "save": "10%",
+      "total": "40,490",
+      "id": 5
+    },
+    {
+      "type": "plus",
+      "months": "3",
+      "price": "7,497",
+      "save": "0",
+      "total": "22,490",
+      "id": 6
+    },
+    {
+      "type": "iconic",
+      "months": "36",
+      "price": "4,272",
+      "save": "31%",
+      "total": "153,790",
+      "id": 7
+    },
+    {
+      "type": "iconic",
+      "months": "24",
+      "price": "4,825",
+      "save": "22%",
+      "total": "115,790",
+      "id": 8
+    },
+    {
+      "type": "iconic",
+      "months": "18",
+      "price": "4,513",
+      "save": "27%",
+      "total": "81,240",
+      "id": 9
+    },
+    {
+      "type": "iconic",
+      "months": "12",
+      "price": "6,208",
+      "save": "0",
+      "total": "74,490",
+      "id": 10
+    },
+    {
+      "type": "lite",
+      "months": "12",
+      "price": "408",
+      "save": "30%",
+      "total": "4,899",
+      "id": 11
+    },
+    {
+      "type": "lite",
+      "months": "6",
+      "price": "583",
+      "save": "0",
+      "total": "3,499",
+      "id": 12
+    }
+  ],
+  "best": [
+    {
+      "language": "English",
+      "course": "Ncert Summary",
+      "description": "Complete course on polity for cse 2023",
+      "date": "Ended on Mar 31, 2022 •",
+      "lessons": " 42 lessons",
+      "teachers": "Atish Mathur",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/2B2802EC-58DF-4D9D-990D-1A52932B7F76_plus.png?q=100&w=512",
+      "id": 1
+    },
+    {
+      "language": "Hindi",
+      "course": "Geography",
+      "description": "Complete Course on world geography through maps",
+      "date": "Ended on Nov 30, 2021 •",
+      "lessons": " 15 lessons",
+      "teachers": "Shudharshan Gurjar",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/375C6092-7D98-416C-A6C2-5583817960FB_special_class.png?q=100&w=512",
+      "id": 2
+    },
+    {
+      "language": "Tamil",
+      "course": "csat-paper ii",
+      "description": "Comprehensive course on csat",
+      "date": "Ended on Apr 1, 2022 •",
+      "lessons": " 22 lessons",
+      "teachers": "Gnanavel N",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/E1600DF5-F119-464C-8B1B-B0220FAFEAFB_plus.png?q=100&w=512",
+      "id": 3
+    },
+    {
+      "language": "English",
+      "course": "Polity, Governance & ir",
+      "description": "Complete course on polity, governance and I.R.",
+      "date": "Ended on Jan 30, 2020 •",
+      "lessons": " 94 lessons",
+      "teachers": "Dr Sidharth Arora",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/BF1C5CEA-9C10-4662-B05E-5B7FCAAB2141_plus.png?q=100&w=512",
+      "id": 4
+    },
+    {
+      "language": "English",
+      "course": "Polity, Governance & ir",
+      "description": "Comprehesive course on governance by Dr. Sidharth Arora",
+      "date": "Ended on Aug 28, 2021 •",
+      "lessons": " 49 lessons",
+      "teachers": "Dr Sidharth Arora",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/BF1C5CEA-9C10-4662-B05E-5B7FCAAB2141_plus.png?q=100&w=512",
+      "id": 5
+    }
+  ],
+  "recent": [
+    {
+      "language": "English",
+      "course": "ENVIRONMENT & ECOLOGY",
+      "description": "Comprehensive Course on Environment and Ecology",
+      "date": "Apr 9, 2022 8:00 AM",
+      "lessons": "Lesson 6",
+      "teachers": "Sachin Arora",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/8E0440C9-FFEB-4134-B672-28E3335B0520_plus.png?q=100&w=512",
+      "id": 1
+    },
+    {
+      "language": "hindi",
+      "course": "History",
+      "description": "आधुनिक भारत का इतिहास पर कोर्स - एक समग्र विश्लेषण",
+      "date": "Apr 9, 2022 1:00 PM",
+      "lessons": "Lesson 3",
+      "teachers": "Ishrat Jawed Farooqui",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/245CD78B-F442-4070-820A-808DCFAEEC9A_plus.png?q=100&w=512",
+      "id": 2
+    },
+    {
+      "language": "hindi",
+      "course": "Art & Culture",
+      "description": "Comprehensive Course on art & culture hindi · UPSC GS 2022",
+      "date": "Today 6:00 PM",
+      "lessons": "Lesson 9",
+      "teachers": "Rajneesh Raj",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/1B60C0C3-CBCF-49E9-930A-95F42FD75F95_plus.png?q=100&w=512",
+      "id": 3
+    }
+  ],
+  "comingSoon": [
+    {
+      "language": "hinglish",
+      "course": "ncert summary",
+      "description": "Course on ncert polity",
+      "date": "Starts on Apr 8, 2022",
+      "lessons": "14 lessons",
+      "teachers": "Byomokesh meher",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/00D82CCD-57D7-4AF0-9EE2-35C5A0F3C34D_plus.png?q=100&w=512",
+      "id": 1
+    },
+    {
+      "language": "hinglish",
+      "course": "Geography",
+      "description": "MCQ Session on indian geography",
+      "date": "Starts on Apr 8, 2022",
+      "lessons": "15 lessons",
+      "teachers": "anirudh aggarwal",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/B5090215-F9F7-481C-94BD-369CCC9244D1_plus.png?q=100&w=512",
+      "id": 2
+    },
+    {
+      "language": "hinglish",
+      "course": "Ncert Summary",
+      "description": "Course on Polity from class 6th to 12th through ncert",
+      "date": "Starts on Apr 9, 2022",
+      "lessons": "25 lessons",
+      "teachers": "nidhi gaur",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/F097619A-720E-4E8C-BB5B-AFD0A234FC84_plus.png?q=100&w=512",
+      "id": 3
+    },
+    {
+      "language": "hindi",
+      "course": "NCert Summary",
+      "description": "एन.सी.ईआर.टी. के द्वारा भूगोल की आधारभूत संकल्पना का निर्माण - भाग I",
+      "date": "Today,10:30 AM  • ",
+      "lessons": " lesson 1",
+      "teachers": "Lakshman Tiwari",
+      "image": "https://static.uacdn.net/thumbnail/course/v2/8DA57538-AB80-494B-9E8F-1457E609B515_plus.png?q=100&w=512",
+      "id": 4
+    }
+  ],
+  "slbsCmpltn": [
+    {
+      "language": "English",
+      "description": "Expedition 1 year Batch Course of GS for UPSC CSE 2023...",
+      "date": "7 Apr 2022",
+      "shift": "Afternoon",
+      "teachers": "Atish Mathur, Arpit Sharma, Shivangi Gautam and 5 more",
+      "image": "https://edge.uacdn.net/static/thumbnail/batch/3951541796ec4229bfdb1de2d17e32e2.png?q=100&w=512",
+      "id": 1
+    },
+    {
+      "language": "hinglish",
+      "description": "Mission 1 Year Batch Course of GS for UPSC CSE 2023...",
+      "date": "6 Apr 2022",
+      "shift": "Morning",
+      "teachers": "Ayussh Sanghi, Sudarshan Gurjar, Dr Sidharth Arora and 10 more",
+      "image": "https://edge.uacdn.net/static/thumbnail/batch/8c8eb47e7b7a4e90b6a133f77bcb991f.png?q=100&w=512",
+      "id": 2
+    },
+    {
+      "language": "hindi",
+      "description": "लक्ष्य UPSC CSE 2023: GS की पूर्ण तैयारी - 30th March",
+      "date": "30 March 2022",
+      "shift": "Morning",
+      "teachers": "Anshuman Singh, Ankit Kumar, Santosh Sharma and 9 more",
+      "image": "https://edge.uacdn.net/static/thumbnail/batch/ac5693b6a7bf464082b5855073e8ad5a.png?q=100&w=512",
+      "id": 3
+    },
+    {
+      "language": "hinglish",
+      "description": "Mission 1 Year Batch Course of GS for UPSC CSE 2023",
+      "date": "30 March 2022",
+      "shift": "Morning",
+      "teachers": "Ayussh Sanghi, Sudarshan Gurjar, Dr Sidharth Arora and 11 more",
+      "image": "https://edge.uacdn.net/static/thumbnail/batch/3951541796ec4229bfdb1de2d17e32e2.png?q=100&w=512",
+      "id": 4
+    }
+  ],
   "liveClassesCard": [
     {
       "name": "Sudharshan Gurjar",

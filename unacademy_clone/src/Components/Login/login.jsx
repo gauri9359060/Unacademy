@@ -8,7 +8,9 @@ import { useNavigate } from 'react-router-dom';
 
 
 const Login = () => {
-  const { mobile, setMobile, getOTP, createOTP, setAuth, auth } = useContext(AuthContext)
+  const { getOTP, createOTP, setAuth} = useContext(AuthContext)
+  const [mobile, setMobile] = useState("");
+  const [text,setText]=useState("")
   const [otp, setOtp] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -77,6 +79,7 @@ color:black;
     font-size:25px;
     border:1px solid black;
     margin-top:50px;
+    
 `;
   const Img = styled.img`
 height:20px;
@@ -130,8 +133,8 @@ margin-top:10px;
 
 
   const [isVisible, setIsVisible] = useState(true);
-  const [isOpened, setIsOpened] = useState(false);
-  const [isPresent, setIsPresent] = useState(false);
+  const [isLoginOpened, setIsLoginOpened] = useState(false);
+  const [isRegisterPresent, setIsRegisterPresent] = useState(false);
   const [isRegister, setIsRegister] = useState(false);
 
   const OTPverification = (otp) => {
@@ -146,28 +149,28 @@ margin-top:10px;
     }
   }
   const toggle = () => {
-    setIsOpened(wasOpened => !wasOpened);
+    setIsLoginOpened(wasOpened => !wasOpened);
     setIsVisible(wasOpened => !wasOpened)
   }
 
 
   const pToggle = () => {
-
-    if (mobile.length === 10) {
-      setIsPresent(wasOpened => !wasOpened);
-      setIsOpened(wasOpened => !wasOpened);
-      setTimeout(() => {
-        getOTP()
-      }, 5000)
-    }
-    else {
-      alert("invalid mobile No.")
-    }
+      setMobile(text);
+    // if (mobile.length === 10) {
+    //   setIsRegisterPresent(wasOpened => !wasOpened);
+    //   setIsLoginOpened(wasOpened => !wasOpened);
+    //   setTimeout(() => {
+    //     getOTP()
+    //   }, 5000)
+    // }
+    // else {
+    //   alert("invalid mobile No.")
+    // }
   }
 
   const ragisterCloser = () => {
     setIsRegister(wasOpened => !wasOpened)
-    setIsPresent(wasOpened => !wasOpened);
+    setIsRegisterPresent(wasOpened => !wasOpened);
   }
 
 
@@ -185,9 +188,9 @@ margin-top:10px;
       )}
 
 
-      {isOpened && (
+      {isLoginOpened && (
         <StyledMainDiv>
-          <StyledDiv onclick="toggle()">
+          <StyledDiv>
 
           </StyledDiv>
           <StyledForm>
@@ -195,9 +198,9 @@ margin-top:10px;
             <StyledH1>Login</StyledH1>
             <P>Or <span> <StyledA >create your account</StyledA></span></P>
             < Label ><Img src='https://media.istockphoto.com/vectors/flag-of-india-vector-id519611160?k=20&m=519611160&s=612x612&w=0&h=n8mmywhzMzcrRI4I50uKYEFVeS4wDfpOGQGEaCK6YPw=' /> +91</Label>
-            <span>
-              <StyledInput placeholder="Enter your mobile number" type="text" value={mobile} onChange={(e) => setMobile(e.currentTarget.value)} />
-            </span>
+            
+            <StyledInput placeholder="Enter your mobile number" type="text" value={text} onChange={(e) => setText(e.currentTarget.value)} />
+        
 
 
 
@@ -205,12 +208,13 @@ margin-top:10px;
 
 
           </StyledForm>
+          
         </StyledMainDiv>
 
       )}
 
       {
-        isPresent && (
+        isRegisterPresent && (
           <StyledMainDiv>
             <StyledDiv onclick="toggle()">
 

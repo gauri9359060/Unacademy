@@ -18,7 +18,7 @@ const Banner = () => {
                     Experience Our 2021 Recap  <ChevronRightIcon />
                 </div>
                 <h1 className={styles.head}>
-                    Crack GATE & ESE with India's largest learning platform
+                    Crack UPSC CSE - GS with India's largest learning platform
                 </h1>
                 <h2 className={styles.subhead}>Get Plus subscription and access unlimited live and recorded courses from India's best educators</h2>
                 <div className={styles.subsButtonDiv}><Button variant="contained" sx={{ backgroundColor: '#08bd80', fontSize: '16px', fontWeight: "600" }} onClick={GotoSubscription} className={styles.Subscriptionbtn}>

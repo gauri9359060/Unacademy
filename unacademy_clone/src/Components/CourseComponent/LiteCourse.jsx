@@ -37,7 +37,7 @@ const LiteCourse = () => {
           <hr />
           <div className={styles.Pricing}>
               <div className={styles.pricingText}>
-                  GATE & ESE - lite Subscription Starts
+                  UPSC CSE - GS - lite Subscription Starts
                   from<span className={styles.fees}>₹104/month</span>
               </div>
               <button className={styles.Pricebtn} onClick={GotoSubscription}><h4>View Pricing</h4></button>

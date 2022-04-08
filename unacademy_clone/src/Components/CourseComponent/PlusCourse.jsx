@@ -52,7 +52,7 @@ const PlusCourse = () => {
             <hr />
             <div className={styles.Pricing}>
                 <div className={styles.pricingText}>
-                    GATE & ESE - Plus Subscription Starts
+                    UPSC CSE - GS - Plus Subscription Starts
                     from<span className={styles.fees}>₹1,967/month</span>
                 </div>
                 <button className={styles.Pricebtn} onClick={GotoSubscription}><h4>View Pricing</h4></button>

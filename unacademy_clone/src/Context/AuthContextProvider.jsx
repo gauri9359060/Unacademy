@@ -15,7 +15,9 @@ export const AuthContextProvider = ({ children }) => {
         mobile,
         setMobile,
         user,
-        setUser,getOTP,createOTP
+        setUser,
+        getOTP,
+        createOTP
     }
     return (<AuthContext.Provider value={value}>
         {children}
