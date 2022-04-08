@@ -1,27 +1,32 @@
-import React,{useState} from 'react';
+import React, { useContext, useState } from 'react';
 import styled from 'styled-components';
 import ClearIcon from '@mui/icons-material/Clear';
+import { AuthContext } from '../../Context/AuthContextProvider';
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 const Login = () => {
-  
+  const { mobile, setMobile, getOTP, createOTP, setAuth, auth } = useContext(AuthContext)
+  const [otp, setOtp] = useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const navigate = useNavigate()
 
-   
-const StyledNavButton= styled.button`
+  const StyledNavButton = styled.button`
   background-color: black;
   font-size: 32px;
   color: white;
   
 `;
 
-const StyledCloseButton=styled.button`
+  const StyledCloseButton = styled.button`
   margin-left:50px;
   margin-top:25px
   
 `;
-const StyledLogButton=styled.button`
+  const StyledLogButton = styled.button`
 width:100px;
 height:45px;
 border-radius:5px;
@@ -36,13 +41,13 @@ font-size:15px;
 color:black;
 `;
 
-const StyledMainDiv=styled.div`
+  const StyledMainDiv = styled.div`
   width:100%;
   background-color:red;
   position:fixed;
 `;
 
-const StyledForm=styled.form`
+  const StyledForm = styled.form`
    width:50%;
    height:625px;
    background-color:white;
@@ -50,7 +55,7 @@ const StyledForm=styled.form`
    float:right;
 `;
 
-const StyledDiv=styled.div`
+  const StyledDiv = styled.div`
     width:50%;
     height:625px;
     background-color:black; 
@@ -58,7 +63,7 @@ const StyledDiv=styled.div`
     // opacity:.5;
 `;
 
-const StyledH1=styled.h1`
+  const StyledH1 = styled.h1`
    font-weight: 600;
    rgb(69, 69, 69);
    margin-top:50px;
@@ -66,36 +71,36 @@ const StyledH1=styled.h1`
 
 `;
 
-const StyledInput=styled.input`
+  const StyledInput = styled.input`
     height:50px;
     width:60%;
     font-size:25px;
     border:1px solid black;
     margin-top:50px;
 `;
-const Img=styled.img`
+  const Img = styled.img`
 height:20px;
 width:20px;
 margin-top:10px;
 
 `;
-const Label=styled.label`
+  const Label = styled.label`
     padding:11px;
     margin-left:50px;
     font-size:25px;
     border:1px solid black;
     
 `;
-const StyledA=styled.a`
+  const StyledA = styled.a`
     color:rgb(16, 202, 75);
    
  
 `;
-const P=styled.p`
+  const P = styled.p`
     margin-left:50px;
     margin-top:20px;
 `;
-const StyledInput1=styled.input`
+  const StyledInput1 = styled.input`
     height:40px;
     width:60%;
     font-size:20px;
@@ -105,7 +110,7 @@ const StyledInput1=styled.input`
     border-radius:5px;
 
 `;
-const StyledInput2=styled.input`
+  const StyledInput2 = styled.input`
     height:40px;
     width:60%;
     font-size:20px;
@@ -115,7 +120,7 @@ const StyledInput2=styled.input`
     border-radius:5px;
 
 `;
-const StyledInput3=styled.input`
+  const StyledInput3 = styled.input`
     
     margin-top:20px;
     margin-left:50px;
@@ -124,93 +129,114 @@ const StyledInput3=styled.input`
 `;
 
 
-const [isVisible, setIsVisible] = useState(true);
-const [isOpened, setIsOpened] = useState(false);
-const [isPresent, setIsPresent]=useState(false);
-const [isRegister, setIsRegister]=useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [isOpened, setIsOpened] = useState(false);
+  const [isPresent, setIsPresent] = useState(false);
+  const [isRegister, setIsRegister] = useState(false);
 
-const toggle=() =>{
-  setIsOpened(wasOpened => !wasOpened);
-  setIsVisible(wasOpened=> !wasOpened)
-}
+  const OTPverification = (otp) => {
+    if ( Number(otp) === createOTP) {
+      setAuth(true)
+      console.log("check function")
+      navigate("/course")
+    }
+    else {
+      setAuth(false)
+      console.log("check function2")
+    }
+  }
+  const toggle = () => {
+    setIsOpened(wasOpened => !wasOpened);
+    setIsVisible(wasOpened => !wasOpened)
+  }
 
-const pToggle = ()=>{
-  setIsPresent(wasOpened=>!wasOpened);
-  setIsOpened(wasOpened => !wasOpened);
-}
 
-const ragisterCloser=()=>{
-  setIsRegister(wasOpened=>!wasOpened)
-  setIsPresent(wasOpened=>!wasOpened);
-}
+  const pToggle = () => {
+
+    if (mobile.length === 10) {
+      setIsPresent(wasOpened => !wasOpened);
+      setIsOpened(wasOpened => !wasOpened);
+      setTimeout(() => {
+        getOTP()
+      }, 5000)
+    }
+    else {
+      alert("invalid mobile No.")
+    }
+  }
+
+  const ragisterCloser = () => {
+    setIsRegister(wasOpened => !wasOpened)
+    setIsPresent(wasOpened => !wasOpened);
+  }
 
 
 
 
   return (
-   
+
     <div>
-       
-    {isVisible && (
-      <StyledNavButton onClick={()=>toggle()}>Login</StyledNavButton>
-    )}
-    {isRegister && (
-      <StyledNavButton onClick={()=>ragisterCloser()}>Login</StyledNavButton>
-    )}
-    
-    
-    {isOpened && (
-      <StyledMainDiv>
-        <StyledDiv onclick="toggle()">
-            
-        </StyledDiv>
-         <StyledForm>
-               <StyledCloseButton styles="width:24px; height:24px" onClick={()=>toggle()} > <ClearIcon /></StyledCloseButton>
-              <StyledH1>Login</StyledH1>
-              <P>Or <span> <StyledA >create your account</StyledA></span></P>
-              < Label ><Img src='https://media.istockphoto.com/vectors/flag-of-india-vector-id519611160?k=20&m=519611160&s=612x612&w=0&h=n8mmywhzMzcrRI4I50uKYEFVeS4wDfpOGQGEaCK6YPw='/> +91</Label>
-              <span>
-              <StyledInput placeholder="Enter your mobile number" type="number" />
-              </span>
-                
-              
-             
-              <StyledLogButton onClick={()=>pToggle()}>Login</StyledLogButton>
-              
-              
-         </StyledForm>
-         </StyledMainDiv>
-         
-    )}
 
-    {
-      isPresent &&(
-        <StyledMainDiv>
-        <StyledDiv onclick="toggle()">
-            
-        </StyledDiv>
-        <StyledForm>
-        <StyledCloseButton  onClick={()=> ragisterCloser()} ><ClearIcon /> </StyledCloseButton>
-
-        <StyledH1>Enter OTP</StyledH1>
-         <P>We've sent an OTP to your registered mobile number</P>
-         
-        <StyledInput1 placeholder="Enter OTP" type="number" />
-        <StyledInput2 placeholder="Name" type="text" />
-        <StyledInput2 placeholder="Email Address" type="email" />
-         <br/>
-        <StyledInput3 type="checkbox" />
-         <label>I agree to Unacademy’s Terms & Privacy policy</label>
-         <br/>
-        <StyledLogButton> Sign Up</StyledLogButton>
-        
-
-        </StyledForm>
-      </StyledMainDiv>
+      {isVisible && (
+        <StyledNavButton onClick={() => toggle()}>Login</StyledNavButton>
+      )}
+      {isRegister && (
+        <StyledNavButton onClick={() => ragisterCloser()}>Login</StyledNavButton>
       )}
 
-   
+
+      {isOpened && (
+        <StyledMainDiv>
+          <StyledDiv onclick="toggle()">
+
+          </StyledDiv>
+          <StyledForm>
+            <StyledCloseButton styles="width:24px; height:24px" onClick={() => toggle()} > <ClearIcon /></StyledCloseButton>
+            <StyledH1>Login</StyledH1>
+            <P>Or <span> <StyledA >create your account</StyledA></span></P>
+            < Label ><Img src='https://media.istockphoto.com/vectors/flag-of-india-vector-id519611160?k=20&m=519611160&s=612x612&w=0&h=n8mmywhzMzcrRI4I50uKYEFVeS4wDfpOGQGEaCK6YPw=' /> +91</Label>
+            <span>
+              <StyledInput placeholder="Enter your mobile number" type="text" value={mobile} onChange={(e) => setMobile(e.currentTarget.value)} />
+            </span>
+
+
+
+            <StyledLogButton onClick={() => pToggle()}>Login</StyledLogButton>
+
+
+          </StyledForm>
+        </StyledMainDiv>
+
+      )}
+
+      {
+        isPresent && (
+          <StyledMainDiv>
+            <StyledDiv onclick="toggle()">
+
+            </StyledDiv>
+            <StyledForm>
+              <StyledCloseButton onClick={() => ragisterCloser()} ><ClearIcon /> </StyledCloseButton>
+
+              <StyledH1>Enter OTP</StyledH1>
+              <P>We've sent an OTP to your registered mobile number</P>
+
+              <StyledInput1 placeholder="Enter OTP" type="text" value={otp} onChange={(e) => setOtp(e.currentTarget.value)} />
+              <StyledInput2 placeholder="Name" type="text" value={name} onChange={(e) => setName(e.currentTarget.value)} />
+              <StyledInput2 placeholder="Email Address" type="email" value={email} onChange={(e) => setEmail(e.currentTarget.value)} />
+              <br />
+              <StyledInput3 type="checkbox" />
+              <label>I agree to Unacademy’s Terms & Privacy policy</label>
+              <br />
+              <StyledLogButton onClick={() => OTPverification(otp)}>Verify OTP</StyledLogButton>
+
+
+            </StyledForm>
+          </StyledMainDiv>
+        )}
+
+
     </div>
   )
-    }
-export {Login};
+}
+export { Login };

@@ -25,70 +25,118 @@ const PackageChoose = () => {
                     <div className={styles.CourseBenifits}>
                         <ul className={styles.plusbenifitList}>
                             <li>
-                                India's best educators
+                                <img src="https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48" alt="" width="12%" />
+                                <span> India's best educators</span>
                             </li>
                             <li>
+                                <img src="https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48" alt="" width="12%" />
                                 Interactive live classes
                             </li>
                             <li>
+                                <img src="https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48" alt="" width="12%" />
                                 Structured courses & PDFs
                             </li>
                             <li>
+                                <img src="https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48" alt="" width="12%" />
                                 Live tests & quizzes
                             </li>
                         </ul>
                     </div>
                     <div className={styles.subsButtonDiv}>
-                        <Button variant="contained" sx={{ backgroundColor: '#08bd80', fontSize: '16px', fontWeight: "600" }} className={styles.packSelectBtn}>
+                        <button className={styles.packSelectBtn}>
                             Select PLUS
-                        </Button>
+                        </button>
                     </div>
                 </div>
+                {/* ICOONIC subscription */}
                 <div className={styles.IconicSubscription}>
-                    <div>
+                    <div className={styles.iconicHeadings}>
                         <div>
                             <h3 className={styles.SubsH3}>iconic</h3>
-                            <p>Take your GATE & ESE preparation to next level with Personal Coach</p>
+                            <p className={styles.subsP}>Take your GATE & ESE preparation to next level with Personal Coach</p>
                         </div>
-                        <img src="https://unacademy-prod.s3.ap-southeast-1.amazonaws.com/web-cms/Group_4894_2b74e644b9.png" alt="" width="40%" />
+                        <div style={{ padding: "3%", marginLeft: "5%" }}>
+                            <img src="https://unacademy-prod.s3.ap-southeast-1.amazonaws.com/web-cms/Group_4894_2b74e644b9.png" alt="" width="55%" />
+                        </div>
                     </div>
                     <div className={styles.CourseBenifits}>
                         <ul className={styles.plusbenifitList}>
                             <li>
-                                India's best educators
+                                <img src="https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48" alt="" width="12%" />
+                                <span> India's best educators</span>
                             </li>
                             <li>
+                                <img src="https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48" alt="" width="12%" />
                                 Interactive live classes
                             </li>
                             <li>
+                                <img src="https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48" alt="" width="12%" />
                                 Structured courses & PDFs
                             </li>
                             <li>
+                                <img src="https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48" alt="" width="12%" />
                                 Live tests & quizzes
                             </li>
                         </ul>
+                        <ul className={styles.plusbenifitList}>
+                            <li>
+                                <img src="https://static.uacdn.net/production/_next/static/images/yellowTick.png?q=75&w=48" alt="" width="12%" />
+                                1:1 Live Mentorship
+                            </li>
+                            <li>
+                                <img src="https://static.uacdn.net/production/_next/static/images/yellowTick.png?q=75&w=48" alt="" width="12%" />
+                                Mains Q&A practice
+                            </li>
+                            <li>
+                                <img src="https://static.uacdn.net/production/_next/static/images/yellowTick.png?q=75&w=48" alt="" width="12%" />
+                                Daily Special Content
+                            </li>
+                            <li>
+                                <img src="https://static.uacdn.net/production/_next/static/images/yellowTick.png?q=75&w=48" alt="" width="12%" />
+                                All PLUS Benefits
+                            </li>
+                        </ul>
                     </div>
-                    <button className={styles.selectPackageBtn}>
+                    <div className={styles.buttons}>
+
+                    <button className={styles.packSelectBtn}>
                         Select ICONIC
                     </button>
-                </div>
-                <div className={styles.LiteSubscription}>
-                    <div>
-                        <div>
-                            <h3>Lite</h3>
-                            <p className={styles.packP}>Assess your preparation with tests</p>
-                        </div>
-                        <img src="https://unacademy-prod.s3.ap-southeast-1.amazonaws.com/web-cms/Lite3_8aed32b41f.png" alt="" />
+                    <button className={styles.learnMoreBtn}>Learn More</button>
                     </div>
-                    <div className={styles.CourseBenifits}>
-
-                    </div>
-                    <button className={styles.Subscriptionbtn}>
-                        Select LITE
-                    </button>
                 </div>
             </div>
+
+            {/* Lite subscription */}
+            <div className={styles.LiteSubscription}>
+                <div className={styles.LiteHeadings}>
+                    <div style={{width:"100%"}}>
+                        <h3 className={styles.SubsH3}>Lite</h3>
+                        <p className={styles.subsP}>Assess your preparation with tests</p>
+                    </div>
+                    <div style={{width:"55%"}
+}>
+                    <img src="https://unacademy-prod.s3.ap-southeast-1.amazonaws.com/web-cms/Lite3_8aed32b41f.png" alt="" width="30%" />
+                    </div>
+                </div>
+                <div className={styles.CourseBenifits}>
+                    <ul className={styles.plusbenifitList}>
+                        <li>
+                            <img src="https://static.uacdn.net/production/_next/static/images/blueTick.png?q=75&w=48" alt="" width="12%" />
+                            Access to curated test series
+                            </li>
+                        <li>
+                            <img src="https://static.uacdn.net/production/_next/static/images/blueTick.png?q=75&w=48" alt="" width="12%" />
+                            Daily practice questions
+                        </li>
+                    </ul>
+                </div>
+                <button className={styles.packSelectBtn} style={{margin:"2em"}}>
+                    Select LITE
+                </button>
+            </div>
         </div>
+
     )
 }
 
