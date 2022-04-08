@@ -5,9 +5,8 @@ import styles from "../Navbar/Navbar.css";
 import SearchIcon from "@mui/icons-material/Search";
 import PinnedSubheaderList from "./PinnedSubheaderList";
 import CourseCards from "./CourseCards";
-import Footer from "./Footer";
 import Navbar from "../Navbar/Navbar";
-
+;
 
 const Container = styled.div`
   background-image: linear-gradient(
@@ -77,7 +76,7 @@ const Explore = () => {
   };
   return (
     <Container className={styles.font}>
-{/* <Navbar/> */}
+<Navbar/>
       <Header>
         <h1 style={{ fontSize: 38, color: "#3C4852" }}>Choose your goal</h1>
         <SearchBox>

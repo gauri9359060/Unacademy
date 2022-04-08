@@ -1,0 +1,12 @@
+.headerh1{
+    border:1px solid black;
+    width: 800px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.headerh1 h1{
+    font-size: 56px;
+    color: #3C4852;
+    font-weight: 500;
+}
