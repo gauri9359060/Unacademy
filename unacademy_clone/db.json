@@ -632,7 +632,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 9,
 
       "title": "GATE, ESE and IIT-JAM",
       "card": [
@@ -643,7 +643,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10,
 
       "title": "Defence Exams",
       "card": [
@@ -662,7 +662,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
 
       "title": "NET Exams",
       "card": [
@@ -681,7 +681,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 12,
       "title": "NEET PG",
       "card": [
         {
@@ -691,7 +691,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 13,
       "title": "Teaching Exams",
       "card": [
         {
@@ -709,7 +709,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 14,
       "title": "CA",
       "card": [
         {
@@ -723,7 +723,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 15,
       "title": "State CET",
       "card": [
         {
@@ -737,7 +737,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 16,
       "title": "CS",
       "card": [
         {
@@ -755,7 +755,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 17,
       "title": "MBBS PROFFESIONAL",
       "card": [
         {
@@ -769,7 +769,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 18,
       "title": "Foreign studies",
       "card": [
         {
@@ -779,7 +779,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 19,
       "title": "Judicary Exams",
       "card": [
         {
@@ -789,24 +789,9 @@
       ]
     },
     {
-      "id": 19,
-
-      "title": "MBBS PROFFESIONAL",
-      "card": [
-        {
-          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
-          "name": "CUET (Language & General Test)"
-        },
-        {
-          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
-          "name": "CUET (UG Science)"
-        }
-      ]
-    },
-    {
       "id": 20,
 
-      "title": "UPSC",
+      "title": "MBBS PROFFESIONAL",
       "card": [
         {
           "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
@@ -821,6 +806,21 @@
     {
       "id": 21,
 
+      "title": "UPSC",
+      "card": [
+        {
+          "logo": "https://static.uacdn.net/topology/TMUVD/icon/origin.png",
+          "name": "CUET (Language & General Test)"
+        },
+        {
+          "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
+          "name": "CUET (UG Science)"
+        }
+      ]
+    },
+    {
+      "id": 22,
+
       "title": "MPSC",
       "card": [
         {
@@ -834,6 +834,7 @@
       ]
     },
     {
+      "id":23,
       "title": "IT",
       "card": [
         {
@@ -847,6 +848,7 @@
       ]
     },
     {
+      "id":24,
       "title": "CS",
       "card": [
         {
@@ -925,6 +927,52 @@
           "title": "Takedown Policy"
         }
       ]
+    }
+  ],
+  "cards":[
+    {
+      "image":"https://static.uacdn.net/web-cms/dailyliveclasses_0c0023950f_c187155ee3.svg?q=75&w=384&fm=webp",
+      "title":"Daily live classes",
+      "paragraph":"Chat with educators, ask questions, answer live polls, and get your doubts cleared - all while the class is going on"
+    },
+    {
+      "image":"https://static.uacdn.net/web-cms/syllabus_a9da21d824_b20b285483.svg?q=75&w=384&fm=webp",
+      "title":"Practice and revise",
+      "paragraph":"Learning isn't just limited to classes with our practice section, mock tests and lecture notes shared as PDFs for your revision"
+    },
+    {
+      "image":"https://static.uacdn.net/web-cms/learnanytimeanywhere_cb19d5de30_b92bc0c6a1.svg?q=75&w=384&fm=webp",
+      "title":"Learn anytime, anywhere",
+      "paragraph":"One subscription gets you access to all our live and recorded classes to watch from the comfort of any of your devices"
+    }
+  ],
+  "ratingcard":[
+    {
+      "title":"Exam Categories",
+      "count":"60+",
+      "image":"https://static.uacdn.net/web-cms/highlightgoals_96d24a04e7_a8e8de225d.svg?q=75&w=384&fm=webp"
+    },
+    {
+      "title":"Daily Live Classes",
+      "count":"1.5K+",
+      "image":"https://static.uacdn.net/web-cms/highlightlive_b05ed1f073_a8042bd7a8.svg?q=75&w=384&fm=webp"
+    },
+    {
+      "title":"Mins. Watched",
+      "count":"3.2B+",
+      "image":"https://static.uacdn.net/web-cms/highlightminswatched_fe52bc4026_ca82eba8b0.svg?q=75&w=384&fm=webp"
+    }
+  ],
+  "ratingCard2":[
+    {
+      "title":"Educators",
+      "count":"14K+",
+      "image":"https://static.uacdn.net/web-cms/hightlighteducators_c894789a76_58c2a07e52.svg?q=75&w=384&fm=webp"
+    },
+    {
+      "title":"Video Lessons",
+      "count":"1M+",
+      "image":"https://static.uacdn.net/web-cms/highlightfreecourses_bb697dbd44_47fe832f07.svg?q=75&w=384&fm=webp"
     }
   ]
 }
