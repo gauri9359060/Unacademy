@@ -1,10 +1,12 @@
-import React,{ useState, useEffect }  from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import NavbarTwo from "../Navbar/NavbarTwo";
 import styles from "../Navbar/Navbar.css";
 import SearchIcon from "@mui/icons-material/Search";
 import PinnedSubheaderList from "./PinnedSubheaderList";
 import CourseCards from "./CourseCards";
+import Footer from "./Footer";
+import Navbar from "../Navbar/Navbar";
 
 
 const Container = styled.div`
@@ -57,7 +59,7 @@ const Search = styled.input`
   border: none;
 `;
 
-const ContentWrapper= styled.div`
+const ContentWrapper = styled.div`
   display:flex;
   max-width:80%;
   margin:auto;
@@ -69,13 +71,13 @@ const Explore = () => {
   }, []);
 
   const getData = () => {
-    fetch(" http://localhost:3001/courses")
+    fetch(" http://localhost:3000/courses")
       .then((res) => res.json())
       .then((res) => setCourses(res));
   };
   return (
     <Container className={styles.font}>
-      <NavbarTwo />
+{/* <Navbar/> */}
       <Header>
         <h1 style={{ fontSize: 38, color: "#3C4852" }}>Choose your goal</h1>
         <SearchBox>
@@ -86,15 +88,15 @@ const Explore = () => {
           <Search placeholder="Search for your goal" />
         </SearchBox>
 
-       
+
       </Header>
 
       <ContentWrapper>
         <div className={styles.scroller}>
-        <PinnedSubheaderList courses={courses}/>
+          <PinnedSubheaderList courses={courses} />
         </div>
-            <CourseCards courses={courses}/>
-        </ContentWrapper>
+        <CourseCards courses={courses} />
+      </ContentWrapper>
     </Container>
 
   );
