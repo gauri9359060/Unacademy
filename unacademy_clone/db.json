@@ -370,17 +370,8 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 9,
-=======
-      "id": 24,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-
       "id": 24,
 
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "GATE, ESE and IIT-JAM",
       "card": [
         {
@@ -390,17 +381,8 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 10,
-=======
-      "id": 9,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-
       "id": 9,
 
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "Defence Exams",
       "card": [
         {
@@ -418,18 +400,8 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 11,
-=======
-      "id": 10,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-
-
       "id": 10,
 
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "NET Exams",
       "card": [
         {
@@ -447,17 +419,7 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 12,
-=======
       "id": 11,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-   
-
-      "id": 11,
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "NEET PG",
       "card": [
         {
@@ -467,15 +429,7 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 13,
-=======
       "id": 12,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-      "id": 12,
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "Teaching Exams",
       "card": [
         {
@@ -493,17 +447,7 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 14,
-=======
       "id": 13,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-     
-
-      "id": 13,
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "CA",
       "card": [
         {
@@ -517,16 +461,7 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 15,
-=======
       "id": 14,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-
-      "id": 14,
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "State CET",
       "card": [
         {
@@ -540,16 +475,7 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 16,
-=======
       "id": 15,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-
-      "id": 15,
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "CS",
       "card": [
         {
@@ -567,16 +493,7 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 17,
-=======
       "id": 16,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-
-      "id": 16,
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "MBBS PROFFESIONAL",
       "card": [
         {
@@ -590,16 +507,7 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 18,
-=======
       "id": 17,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-
-      "id": 17,
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "Foreign studies",
       "card": [
         {
@@ -609,16 +517,7 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 19,
-=======
       "id": 18,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-
-      "id": 18,
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "Judicary Exams",
       "card": [
         {
@@ -628,17 +527,8 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 20,
-=======
-      "id": 19,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-
       "id": 19,
 
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "MBBS PROFFESIONAL",
       "card": [
         {
@@ -652,17 +542,8 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 22,
-=======
-      "id": 20,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-
       "id": 20,
 
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "UPSC",
       "card": [
         {
@@ -676,17 +557,8 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 23,
-=======
-      "id": 21,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-
       "id": 21,
 
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "MPSC",
       "card": [
         {
@@ -700,17 +572,6 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 24,
-=======
-      "id": 22,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-  
-      "id": 22,
-
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "IT",
       "card": [
         {
@@ -724,16 +585,6 @@
       ]
     },
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 25,
-=======
-      "id": 23,
->>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
-=======
-      "id": 23,
-
->>>>>>> 9a0e0a2719df60e2bbb9e0edc54ac49b45d711c5
       "title": "CS",
       "card": [
         {
@@ -751,7 +602,7 @@
         {
           "logo": "https://static.uacdn.net/topology/YOTUH/icon/origin.png",
           "name": "CUET (UG Science)"
-        }    
+        }
       ]
     }
   ],
