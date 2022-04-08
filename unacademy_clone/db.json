@@ -1,4 +1,121 @@
 {
+  "users": [],
+  "liveClassesCard": [
+    {
+      "name": "Sudharshan Gurjar",
+      "heading": "discussion on concep...",
+      "date": "Apr 5,2022",
+      "time": "7:00 Pm",
+      "id": 1,
+      "image": "https://static.uacdn.net/thumbnail/course/v2/E886CD0A-AA32-47B1-B3FE-AF75DA0E08E2_special_class.png?q=100&w=512"
+    },
+    {
+      "name": "Madhukar Kotawe",
+      "heading": "Open test on...",
+      "date": "Apr 6,2022",
+      "time": "9:30 AM",
+      "id": 2,
+      "image": "https://static.uacdn.net/thumbnail/course/v2/0659F35E-DE26-46C2-A817-D5597390EF2A_special_class.png?q=100&w=512"
+    },
+    {
+      "name": "Akshat Dwivedi",
+      "heading": "current Affairs...",
+      "date": "Apr 6,2022",
+      "time": "12:00 PM",
+      "id": 3,
+      "image": "https://static.uacdn.net/thumbnail/course/v2/6488CC56-7C1C-49C7-ACCE-60D4FCF17281_special_class.png?q=100&w=512"
+    },
+    {
+      "name": "Sudharshan Gurjar",
+      "heading": "National Parks...",
+      "date": "Apr 6,2022",
+      "time": "7:00 PM",
+      "id": 4,
+      "image": "https://static.uacdn.net/thumbnail/course/v2/E886CD0A-AA32-47B1-B3FE-AF75DA0E08E2_special_class.png?q=100&w=512"
+    }
+  ],
+  "educators": [
+    {
+      "name": "Pavneet Singh",
+      "description": "Author of Internal Security, International Relations and Current Affairs with...",
+      "watchMin": "32M",
+      "followers": "48K",
+      "image": "https://unacademy-prod.s3-ap-southeast-1.amazonaws.com/educator_new/processed_thumbnail/62D47E48-D19C-464E-A9FB-BCBB0EA8D43B_.png",
+      "id": 1
+    },
+    {
+      "name": "Shudhanshu gurjar",
+      "description": "India's Top Geography Educator | Use invite code - 'SGYT10' to Unlock my Free...",
+      "watchMin": "185M",
+      "followers": "307K",
+      "image": "https://unacademy-prod.s3-ap-southeast-1.amazonaws.com/educator_new/processed_thumbnail/6F5A8786-D387-4A0B-9F76-40B81A021504_.png",
+      "id": 2
+    },
+    {
+      "name": "Mudit Gupta",
+      "description": "B.Tech. (ECE), LAMP Fellow (2015), Quora Top-Writer, 2018 and AIR 76 DU LLB...",
+      "watchMin": "20M",
+      "followers": "93K",
+      "image": "https://unacademy-prod.s3-ap-southeast-1.amazonaws.com/educator_new/processed_thumbnail/CE36D600-972D-4F5B-8E72-4157CD0378F4_.png",
+      "id": 3
+    },
+    {
+      "name": "Munral patel",
+      "description": "🔖Unlock Free content with Code: 'Mrunal.org'",
+      "watchMin": "159M",
+      "followers": "359K",
+      "image": "https://unacademy-prod.s3-ap-southeast-1.amazonaws.com/educator_new/processed_thumbnail/BCB369F0-2992-4BCF-BE20-BD67B160FA09_.png",
+      "id": 4
+    },
+    {
+      "name": "Partik Nayak",
+      "description": "Teacher by Passion, Director- PACE Academy, Worked @ Government of...",
+      "watchMin": "92M",
+      "followers": "93K",
+      "image": "https://unacademy-prod.s3-ap-southeast-1.amazonaws.com/educator_new/processed_thumbnail/85D65E81-8532-4D47-AA82-A84C1713EEB3_.png",
+      "id": 5
+    },
+    {
+      "name": "Arti Chhawari",
+      "description": "Story teller.Lets reconstruct our hi(story) together📚 Use code:ARTI1702 Join my...",
+      "watchMin": "20M",
+      "followers": "117K",
+      "image": "https://unacademy-prod.s3-ap-southeast-1.amazonaws.com/educator_new/processed_thumbnail/A12E2FF3-3350-4A4E-9B46-4D9E3054D1C2_.png",
+      "id": 6
+    },
+    {
+      "name": "Madhukar kotawe",
+      "description": "Use MKLIVE refer code very rich experience of over 13 years as a faculty and as...",
+      "watchMin": "28M",
+      "followers": "114K",
+      "image": "https://unacademy-prod.s3-ap-southeast-1.amazonaws.com/educator_new/processed_thumbnail/324131F6-D335-47E6-8EC4-4BB52EB303CE_.png",
+      "id": 7
+    },
+    {
+      "name": "Dr. Sidharth Arora",
+      "description": "Pursued M.B.B.S. and L.L.B. Advocate in Supreme Court. Has been teaching...",
+      "watchMin": "61M",
+      "followers": "203K",
+      "image": "https://unacademy-prod.s3-ap-southeast-1.amazonaws.com/educator_new/processed_thumbnail/FCCDEAA0-A7D8-4EDF-888E-DF42025237F9_.png",
+      "id": 8
+    },
+    {
+      "name": "Rakesh Verma",
+      "description": "I have done BTech, MA Economics and MBA. I joined IAS in 1981. I am...",
+      "watchMin": "19M",
+      "followers": "44K",
+      "image": "https://unacademy-prod.s3-ap-southeast-1.amazonaws.com/educator_new/processed_thumbnail/0213DD98-DE00-4D7C-860B-DC96BC1E33DF_.png",
+      "id": 9
+    },
+    {
+      "name": "Deepanshu Singh",
+      "description": "LSE and IIM-K Author and Advisor to Govt Polity, Current affairs and...",
+      "watchMin": "11M",
+      "followers": "275K",
+      "image": "https://unacademy-prod.s3-ap-southeast-1.amazonaws.com/educator_new/processed_thumbnail/842662B2-41BA-4FD4-A7B9-5993C92948FD_.png",
+      "id": 10
+    }
+  ],
   "courses": [
     {
       "id": 1,
@@ -230,7 +347,6 @@
         }
       ]
     },
-
     {
       "id": 8,
       "title": "CUCET",
@@ -254,7 +370,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 9,
+=======
+      "id": 24,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "GATE, ESE and IIT-JAM",
       "card": [
         {
@@ -264,7 +384,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 10,
+=======
+      "id": 9,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "Defence Exams",
       "card": [
         {
@@ -282,7 +406,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 11,
+=======
+      "id": 10,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "NET Exams",
       "card": [
         {
@@ -300,7 +428,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 12,
+=======
+      "id": 11,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "NEET PG",
       "card": [
         {
@@ -310,7 +442,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 13,
+=======
+      "id": 12,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "Teaching Exams",
       "card": [
         {
@@ -328,7 +464,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 14,
+=======
+      "id": 13,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "CA",
       "card": [
         {
@@ -342,7 +482,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 15,
+=======
+      "id": 14,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "State CET",
       "card": [
         {
@@ -356,7 +500,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 16,
+=======
+      "id": 15,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "CS",
       "card": [
         {
@@ -374,7 +522,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 17,
+=======
+      "id": 16,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "MBBS PROFFESIONAL",
       "card": [
         {
@@ -388,7 +540,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 18,
+=======
+      "id": 17,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "Foreign studies",
       "card": [
         {
@@ -398,7 +554,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 19,
+=======
+      "id": 18,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "Judicary Exams",
       "card": [
         {
@@ -408,7 +568,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 20,
+=======
+      "id": 19,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "MBBS PROFFESIONAL",
       "card": [
         {
@@ -422,7 +586,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 22,
+=======
+      "id": 20,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "UPSC",
       "card": [
         {
@@ -436,7 +604,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 23,
+=======
+      "id": 21,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "MPSC",
       "card": [
         {
@@ -450,7 +622,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 24,
+=======
+      "id": 22,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "IT",
       "card": [
         {
@@ -464,7 +640,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "id": 25,
+=======
+      "id": 23,
+>>>>>>> 707d42aa65c4182ca821018ee6bd6279f49b1ab0
       "title": "CS",
       "card": [
         {
@@ -486,60 +666,63 @@
       ]
     }
   ],
-  "footer":[
+  "footer": [
     {
-      "heading":"Company",
-      "content":[{
-        "title" :"About us"
-      },
-      {
-        "title" :"Careers"
-      },
-      {
-        "title" :"Blogs"
-      },
-      {
-        "title" :"Privacy Policy"
-      },
-      {
-        "title" :"Terms and Conditions"
-      }
-    ]
+      "heading": "Company",
+      "content": [
+        {
+          "title": "About us"
+        },
+        {
+          "title": "Careers"
+        },
+        {
+          "title": "Blogs"
+        },
+        {
+          "title": "Privacy Policy"
+        },
+        {
+          "title": "Terms and Conditions"
+        }
+      ]
     },
     {
-      "heading":"Popular Goals",
-      "content":[{
-        "title" :"IIT JEE"
-      },
-      {
-        "title" :"UPSC CSE GS"
-      },
-      {
-        "title" :"SSC Exams"
-      },
-      {
-        "title" :"CBSE class 12"
-      },
-      {
-        "title" :"NEET UG"
-      }
-    ]
+      "heading": "Popular Goals",
+      "content": [
+        {
+          "title": "IIT JEE"
+        },
+        {
+          "title": "UPSC CSE GS"
+        },
+        {
+          "title": "SSC Exams"
+        },
+        {
+          "title": "CBSE class 12"
+        },
+        {
+          "title": "NEET UG"
+        }
+      ]
     },
     {
-      "heading":"Other Links",
-      "content":[{
-        "title" :"User Guidlines"
-      },
-      {
-        "title" :"Site map"
-      },
-      {
-        "title" :"Refund Policy"
-      },
-      {
-        "title" :"Takedown Policy"
-      }
-    ]
+      "heading": "Other Links",
+      "content": [
+        {
+          "title": "User Guidlines"
+        },
+        {
+          "title": "Site map"
+        },
+        {
+          "title": "Refund Policy"
+        },
+        {
+          "title": "Takedown Policy"
+        }
+      ]
     }
   ]
 }

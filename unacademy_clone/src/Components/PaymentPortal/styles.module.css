@@ -1,0 +1,173 @@
+/* Package chooser css */
+
+.SubscriptionNav{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+
+.subsHead{
+        /* text-align: center; */
+    padding-bottom: 20px;
+    text-align: center;
+}
+.subsH5{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3C4852;
+    margin: 0px;
+}
+.subsP{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 8px 0px 0px;
+    color: #7A8B94
+    
+}
+.SubsH3{
+   font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    color: #3C4852;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.SubsCardContianer{
+    width: 75%;
+    margin: auto;
+   display: flex; 
+    
+}
+.PlusSubscription{
+    grid-column: 3/11;
+    background-color: #FFFFFF;
+    border: 1px solid #E9EEF2;;
+    border-radius: 8px 0 0 8px;
+    width: 25%;
+    margin-top: 18px;
+    height: 446px;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
+    padding: 6% 5% 6% 6%;
+    position: relative;
+    margin-right: -1px;
+}
+
+.subscriptionCardHeader{
+    display: flex;
+     
+}
+.packP{
+ font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0px;
+    color: #7A8B94;
+    font-weight: normal;
+    text-align: left;
+}
+.CourseBenifits{
+    display: flex;
+    margin-bottom: 24px;
+    margin-top: 0px;
+    align-items: center;
+    column-gap: 8%;
+}
+.packSelectBtn{
+       position: relative;
+    border: none;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 176px;
+    height: 48px;
+    min-height: 48px;
+    color: #ffffff;
+    -webkit-user-drag: none;
+    user-select: none;
+    background-color: #08bd80;
+}
+.plusbenifitList{
+    
+    margin-right: 0;
+    padding: 0;
+   list-style: none;
+}
+.plusbenifitList>li{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: normal;
+    margin-bottom: 1em;
+    color: #3C4852;
+}
+.plusbenifitList>li>img{
+    margin-right: 1em;
+}
+
+.IconicSubscription{
+    width: 65%; 
+    background-color: #ffffff;
+    border: 1px solid #E9EEF2;;
+    border-radius: 8px;
+    height: 485px;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
+    padding: 6%;
+    position: relative;
+}
+.iconicHeadings{
+    display: flex;
+}
+.buttons{
+    margin-left:10% ;
+    display: flex;
+    column-gap: 10%;
+}
+.learnMoreBtn{
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E9EEF2;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 176px;
+    height: 48px;
+    min-height: 48px;
+    color: #08bd80;
+    user-select: none;
+    background-color: #ffffff;
+}
+
+.LiteSubscription{
+    width: 70%;
+    background: rgb(255, 255, 255);
+    border: 1px solid #E9EEF2;
+    box-shadow: rgb(221 230 237 / 40%) 0px 8px 32px 0px;
+    border-radius: 8px;
+    padding: 32px 48px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+.LiteHeadings{
+    display: flex;
+}
+
+
+/* Payment Page css */
+
+.paymentMainContainer{
+    
+}
