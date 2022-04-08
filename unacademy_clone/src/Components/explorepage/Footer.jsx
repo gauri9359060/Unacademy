@@ -14,6 +14,15 @@ const FooterWrapper = styled.div`
     display:flex;
     flex-direction:row;
     margin-bottom:50px;
+    @media (max-width: 768px) {
+    max-width:100%;
+    flex-direction:column;
+  }
+  @media (max-width: 375px) {
+    flex-direction:column;
+    width:30%
+  }
+
 `
 const Li= styled.li`
     list-style-type:none;
@@ -23,6 +32,10 @@ const AboutWrapper =styled.div`
   padding:30px;
   padding-bottom:0px;
   margin-left:20px;
+  @media (max-width: 768px) {
+    margin-left:0px;
+  }
+
 `
 const Footer = () => {
   const [items,setItems] = useState([]);
@@ -36,7 +49,7 @@ const Footer = () => {
 
   return (
     <FooterWrapper>
-        <div style={{padding:40, paddingLeft:0}}>
+        <div className={styles.logodiv}>
             <img src="https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=384" alt='Unacademy logo' style={{padding:20}}/>
             <div className={styles.logo}>
             <Link style={{color:"gray"}}><FacebookRoundedIcon style={{width:18,height:18}}/></Link>
@@ -53,16 +66,16 @@ const Footer = () => {
                 return(
                   <AboutWrapper key={data.id}>
                   <div>
-                  <h6 style={{fontSize:15, color:"gray",marginBottom:20}}>{data.heading}</h6>
+                  <h6>{data.heading}</h6>
                   </div>
                     
                       {
                         data.content.map((item)=>{
                           return(
-                            <div className={styles.about}>
+                            <div className={styles.about} key={item.id}>
                             
                                 <Li>
-                                   <Link className={styles.aboutlink}>{item.title}</Link>
+                                   <Link style={{textDecoration:"none", color:"gray"}}>{item.title}</Link>
                                 </Li>
                          
                                
@@ -76,7 +89,7 @@ const Footer = () => {
                 )
               })
             }
-              <div style={{paddingTop:10,marginLeft:40}}>
+              <div style={{paddingTop:20,marginLeft:0}}>
                   <h6 style={{fontSize:15, color:"gray",marginBottom:10}}>LEARNER APP</h6>
                   <span>
                   <Link><img src="https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&w=128" alt="play" style={{width:120,height:40,cursor:"pointer"}}/></Link>

@@ -1,6 +1,7 @@
 import * as React from "react";
 import List from "@mui/material/List";
 import styled from "styled-components";
+import styles from "./explore.module.css"
 
 const Li = styled.li`
   font-size: 15px;
@@ -18,19 +19,15 @@ export default function PinnedSubheaderList({ courses }) {
         bgcolor: "background.paper",
         position: "relative",
         overflow: "auto",
-        maxHeight: 700,
+        maxHeight: 800,
         "& ul": { padding: 0 },
       }}
     >
-    <div style={{width:280}}>
+    <div className={styles.scrollerPinned}>
     {courses.map((item) => (
         <Li key={`${item.id}`}>
           <ul>
-              <Li>{
-                courses.map((item)=>{
-                  return(<p>{item.title}</p>)
-                })
-              }</Li>   
+              <Li key={item.id}>{item.title}</Li>   
           </ul>
         </Li>
       ))}
