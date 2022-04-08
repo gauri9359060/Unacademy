@@ -21,8 +21,9 @@ function App() {
       <Login/> 
       {/* {auth?<NavBarTwo/>:<Navbar/>} */}
       <UserNavigation />
+      <Footer />
       {/* <Explore/>
-        <Footer/> */}
+         */}
 
     </div>
   );

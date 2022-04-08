@@ -18,7 +18,7 @@ const IconicCourse = () => {
                 ICONIC Subscription
             </div>
             <div className={styles.SubHead}>
-                Take Your GATE & ESE Preparation to Next Level with Your Personal Coach
+                    Take Your UPSC CSE - GS Preparation to Next Level with Your Personal Coach
             </div>
             <div className={styles.features}>
                 <div className={styles.Offer}>
@@ -55,7 +55,7 @@ const IconicCourse = () => {
             <hr />
             <div className={styles.Pricing}>
                 <div className={styles.pricingText}>
-                    GATE & ESE - ICONIC Subscription Starts
+                        UPSC CSE - GS - ICONIC Subscription Starts
                     from<span className={styles.fees}>₹3,467/month</span>
                 </div>
                     <button className={styles.Pricebtn} onClick={GotoSubscription}><h4>View Pricing</h4></button>
