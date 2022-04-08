@@ -37,7 +37,7 @@ const Home = () => {
                     <Link to="/Explore">
                       <button>ss</button>
                     </Link>
-                     
+                     <h1>jnj</h1>
                     </div>
               </div>
 
