@@ -1,8 +1,7 @@
 import * as React from "react";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
-import { Login } from "../Login/Login";
-
+import { Login } from "../Login/login";
 
 
 export default function LoginButton() {
@@ -10,7 +9,7 @@ export default function LoginButton() {
     
     <Stack direction="row" spacing={2}>
       <Button variant="contained" color="success">
-      <Login/>
+       <Login />
       </Button>
     </Stack>
   );
