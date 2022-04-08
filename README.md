@@ -11,4 +11,12 @@
 
 ## ⚡ Technologies Used  
 
-<img src = "https://www.datocms-assets.com/14946/1638186862-reactjs.png?auto=format" height= "90px"> &nbsp;<img src = "https://i.pinimg.com/originals/71/f0/a4/71f0a4c41735f951f9823725ee42cf8a.png" height = "90px"> &nbsp; <img src="https://img.shields.io/badge/-JavaScript-eed718?style=flat&logo=javascript&logoColor=ffffff" height = "90px" width = "250px">
+<img src = "https://www.datocms-assets.com/14946/1638186862-reactjs.png?auto=format" height= "50px" width="100px"> &nbsp;<img src = "https://i.pinimg.com/originals/71/f0/a4/71f0a4c41735f951f9823725ee42cf8a.png" height= "50px" width="100px"> &nbsp; <img src="https://img.shields.io/badge/-JavaScript-eed718?style=flat&logo=javascript&logoColor=ffffff" heheight= "50px" width="230px"> &nbsp; <img src = "https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" height= "50px" width="100px"> <img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white" height= "50px" width="100px">
+
+
+## 👨‍💻 Contributors
+###  Gauri Patil 
+###  Ashish Singh
+###  Vijit Singh
+
+# 💎 Overview
