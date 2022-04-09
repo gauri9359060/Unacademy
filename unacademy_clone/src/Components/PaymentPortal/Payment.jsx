@@ -9,8 +9,9 @@ export const Payment = () => {
             <div className={styles.cartbody}>
                 <div className={styles.cart_mainDiv}>
                     <div>
-                        <AddressComponent />
-                        <MethodPayment />
+                        {/* <AddressComponent />
+                        <MethodPayment /> */}
+                        
                     </div>
                     <div></div>
                 </div>

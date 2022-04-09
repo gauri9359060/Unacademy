@@ -15,8 +15,6 @@ function App() {
   const {auth}=AuthContext
   return (
     <div className="App">
- 
-      {auth?<NavBarTwo/>:<Navbar/>}
       <UserNavigation/>
 
     </div>

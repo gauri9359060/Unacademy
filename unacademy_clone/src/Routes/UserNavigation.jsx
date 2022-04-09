@@ -5,7 +5,7 @@ import Subscription from '../Components/CourseComponent/Subscription'
 import Explore from '../Components/explorepage/Explore'
 import Home from '../Components/HomeComponent/Home'
 import { Payment } from '../Components/PaymentPortal/Payment'
-import Slider from '../Components/PaymentPortal/slider'
+import Paymentsucess from '../Components/PaymentPortal/Paymentsucess'
 import TimePeriod from '../Components/PaymentPortal/TimePeriod'
 const UserNavigation = () => {
   return (
@@ -17,6 +17,7 @@ const UserNavigation = () => {
         <Route path='/subscription' element={<Subscription />} />
         <Route path='/timePeriod' element={<TimePeriod/>}/>
         <Route path='/payment' element ={<Payment/>}/>
+        <Route path='/paymentsuccess' element={<Paymentsucess/>}/>
         {/* <Route path='/liteSubscription' element={}/>
         <Route path='/plusSubscription' element={ } />
         <Route path='/iconicSubscription' element={ } /> */}

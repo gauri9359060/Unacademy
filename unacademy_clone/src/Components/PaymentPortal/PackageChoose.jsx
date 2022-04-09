@@ -56,10 +56,10 @@ const PackageChoose = () => {
                     </div>
                     <div className={styles.subsButtonDiv}>
                         <button className={styles.packSelectBtn} onClick={()=>{
-                            navigate('/timePeriod')
                             dispatch(plan("plus"))
                             getCourse(plan_name)
                         }}
+                            onDoubleClick={() => { navigate('/timePeriod') }}
                         >
                             Select PLUS
                         </button>
@@ -117,10 +117,11 @@ const PackageChoose = () => {
                     <div className={styles.buttons}>
 
                         <button className={styles.packSelectBtn} onClick={() => {
-                            navigate('/timePeriod')
                             dispatch(plan("iconic"))
                             getCourse(plan_name)
-                        }}>
+                        }}
+                            onDoubleClick={() => { navigate('/timePeriod') }}
+                        >
                         Select ICONIC
                     </button>
                     <button className={styles.learnMoreBtn}>Learn More</button>
@@ -153,10 +154,11 @@ const PackageChoose = () => {
                     </ul>
                 </div>
                 <button className={styles.packSelectBtn} style={{ margin: "2em" }} onClick={() => {
-                    navigate('/timePeriod')
                     dispatch(plan("lite"))
                     getCourse(plan_name)
-                }}>
+                }}
+                    onDoubleClick={() => { navigate('/timePeriod') }}
+                >
                     Select LITE
                 </button>
             </div>
