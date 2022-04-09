@@ -1,0 +1,62 @@
+.cart_mainDiv {
+    background-color: white;
+    position: static;
+    width: 75%;
+    margin: auto;
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 58% 40%;
+    column-gap: 2%;
+    box-shadow: rgb(221 230 237 / 40%) 0px 8px 32px 0px;
+    
+  }
+  
+  .address {
+    border: 1px solid #ffffff;
+    margin: 3px;
+    margin-top: 18px;
+    width: 98%;
+    border-radius: 4px;
+    display: grid;
+    padding: 0.8em;
+    grid-template-columns: 85% 10%;
+  }
+  .address_heading {
+    font-size: 22px;
+    color: #424553;
+    margin-left: 20px;
+    width: 70%;
+  }
+  .details_list{
+      display: flex;
+      column-gap: 2em;
+  }
+  .details_list li{
+      font-size: 14px;
+  }
+  .addressImage{
+      align-items: center;
+      width: 100%;
+      margin: 5px;
+
+  }
+  .payment_mode{
+      display: grid;
+      grid-template-columns: 30% 40%;
+      margin-left: 3em;
+      margin-top: 2.5em;
+  }
+ .method_button{
+     display: flex;
+     flex-direction: column;
+     row-gap: 1px;
+ }
+ .method_button button{
+     height: 3em;
+     width: 80%;
+     border: 0px;
+     background-color: white;
+     color:424553 ;
+     font-size: 15px;
+
+ }

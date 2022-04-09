@@ -30,7 +30,7 @@ const Header = styled.div`
 const Home = () => {
   return (
     <Container>
-         <Header>
+         {/* <Header>
               <div className={styles.headerh1}>
                     <h1>India's largest <br/>learning platform</h1>
                     <div>
@@ -41,7 +41,8 @@ const Home = () => {
                     </div>
               </div>
 
-         </Header>
+         </Header> */}
+         home
     </Container>
   )
 }

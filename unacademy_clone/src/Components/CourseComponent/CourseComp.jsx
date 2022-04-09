@@ -7,10 +7,12 @@ import Educators from './Educators'
 import IconicCourse from './IconicCourse'
 import LiteCourse from './LiteCourse'
 import LiveClasses from './LiveClasses'
+import PackageContainer from './PackageContainer'
 import PlusCourse from './PlusCourse'
 import RecentlyStarted from './RecentStarted'
 import styles from './styles.module.css'
 import Syllabus from './Syllabus'
+import Footer from '../explorepage/Footer'
 const CourseComp = () => {
   return (
       <div>
@@ -28,6 +30,8 @@ const CourseComp = () => {
       <ComingSoon/>
       <RecentlyStarted/>
       <BestLectures/>
+      <PackageContainer/>
+      <Footer />
     </div>
   )
 }

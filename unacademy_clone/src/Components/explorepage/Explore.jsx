@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import NavbarTwo from "../Navbar/NavbarTwo";
+// import NavbarTwo from "../Navbar/NavbarTwo";
 import styles from "../Navbar/Navbar.css";
 import SearchIcon from "@mui/icons-material/Search";
 import PinnedSubheaderList from "./PinnedSubheaderList";
