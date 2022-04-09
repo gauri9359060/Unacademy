@@ -42,7 +42,7 @@ const Footer = () => {
 
 
   useEffect(() => {
-    fetch(" http://localhost:3001/footer")
+    fetch(" http://localhost:3000/footer")
       .then((res) => res.json())
       .then((res) => setItems(res));
   }, []);

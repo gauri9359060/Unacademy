@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import styles from "./Home.module.css";
@@ -8,6 +8,9 @@ import Navbar from "../Navbar/Navbar";
 import Cards from "./Cards";
 import MobileCard from "./MobileCard";
 import Rating from "./Rating";
+import { AuthContext } from "../../Context/AuthContextProvider";
+import NavBarTwo from "../Navbar/NavbarTwo";
+import Footer from "../explorepage/Footer";
 
 const Container = styled.div`
   width: 100%;
@@ -33,13 +36,14 @@ const Header = styled.div`
   }
 `;
 const Home = () => {
+  const { auth, setAuth } = useContext(AuthContext)
   const navigate = useNavigate()
   const explorePage =()=>{
      navigate('/explore')
   }
   return (
     <Container>
-      <Navbar />
+      {auth ? <NavBarTwo /> : <Navbar />}
       <Header>
         <div className={styles.headerh1}>
           <h1>
@@ -74,7 +78,9 @@ const Home = () => {
         <Cards style={{marginTop:100}}/>
         <MobileCard/>
         <Rating/>
+    <Footer/>
     </Container>
+    
   );
 };
 

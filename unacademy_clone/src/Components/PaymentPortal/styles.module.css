@@ -171,3 +171,195 @@
 .paymentMainContainer{
     
 }
+
+/* time Period css */
+.PlanMainContainer{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    min-height: calc( 100vh - 384px );
+    min-height: calc(100vh - 56px);
+    grid-auto-rows: max-content;
+}
+.slider{
+    padding-top: 93px;
+    grid-column-start: 1;
+     grid-column-end: 11;
+    display: block;
+}
+.planContainer{
+     grid-column-start: 11;
+     grid-column-end: 24;
+     text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+}
+.planHeading{
+        display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3C4852;
+    margin: 0px;
+    margin-bottom: 24px;
+}
+.planBtnContainer{
+        display: flex;
+    margin: 0px auto 28px;
+    border: 1px solid #ffffff;
+    border-radius: 45px;
+}
+.PlanBtn{
+   padding: 12px 24px;
+    cursor: pointer;
+    background-color: white;
+    color:#3C4852 ;
+    border-radius: 45px;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 800;
+    border: none;
+    text-transform: uppercase;
+}
+.PlanBtn:focus{
+     padding: 12px 24px;
+    cursor: pointer;
+    background-color: #3C4852;
+    color: white;
+    border-radius: 45px;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 800;
+    border: none;
+    text-transform: uppercase;
+}
+.PlanPeriodContainer{
+    overflow: hidden;
+    position: relative;
+}
+.planAlert{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 173, 59, 0.08);
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    margin: 0px;
+    color: #3C4852;
+    padding-left: 8px;
+}
+.save{
+    font-size: 12px;
+    line-height: 150%;
+    margin: 4px 0px 0px;
+    color: #FFAD3B;
+    font-weight: 600;
+}
+.months{
+    font-weight: bold;
+    font-size: 20px;
+    color: #3C4852;
+    margin: 0px;
+    line-height: 24px;
+}
+.price{
+font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3C4852;
+    margin: 0px;
+}
+.total{
+    display: flex;
+    align-items: baseline;
+    margin-top: 4px;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.planTile{
+        background-color: #ffffff;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
+    grid-column-start: span 13;
+    grid-column-end:auto;
+    padding: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out 0s;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 2px solid #08bd80;
+    opacity: 1;
+    display: flex;
+
+}
+.planCheckBox{
+    width: 30px;
+    border: 1px solid #08bd80;
+}
+.planSpan1{
+    display: flex;
+    flex-direction: column;
+}
+.planSpan2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: auto
+}
+.paymentTime{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    margin: 0px;
+    color: #3C4852;
+}
+.paymentBtn{
+    position: fixed;
+    height: 106px;
+    bottom: 0px;
+    transition: all 400ms ease-in-out 0s;
+    z-index: 1;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px -8px 32px 0px rgba(233, 238, 242, 0.4);
+    width: 608px;
+    right: auto;
+    display: flex;
+    margin-left: 15px;
+
+}
+
+.paymentButton{
+    position: relative;
+    border: none;
+    display: block;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 176px;
+    height: 48px;
+    min-height: 48px;
+    color:#FFFFFF;
+    user-select: none;
+    background-color: #08bd80;
+    transition: box-shadow 300ms ease-in-out 0s, transform 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s;
+    margin-left: 24px;
+}
