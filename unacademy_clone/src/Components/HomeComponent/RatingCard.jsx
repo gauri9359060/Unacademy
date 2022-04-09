@@ -23,7 +23,7 @@ const RatingCard = () => {
       }, []);
     
       const getData2 = () => {
-        fetch("http://localhost:3001/ratingcard2")
+        fetch("http://localhost:3000/ratingcard2")
           .then((res) => res.json())
           .then((res) => setRateCard2(res));
       };

@@ -1,6 +1,5 @@
 import React from 'react'
-import { AddressComponent } from './AddressComponent'
-import { MethodPayment } from './MethodPayment'
+
 import styles from "./Payment.module.css"
 
 export const Payment = () => {
@@ -11,7 +10,7 @@ export const Payment = () => {
                     <div>
                         {/* <AddressComponent />
                         <MethodPayment /> */}
-                        
+
                     </div>
                     <div></div>
                 </div>

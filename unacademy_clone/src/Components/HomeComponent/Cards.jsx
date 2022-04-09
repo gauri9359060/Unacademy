@@ -8,7 +8,7 @@ const Cards = () => {
       }, []);
     
       const getData = () => {
-        fetch("http://localhost:3001/cards")
+        fetch("http://localhost:3000/cards")
           .then((res) => res.json())
           .then((res) => setCard(res));
       };
