@@ -42,7 +42,7 @@ const Footer = () => {
 
 
   useEffect(() => {
-    fetch(" http://localhost:3000/footer")
+    fetch(" https://databaseunacademy.herokuapp.com/footer")
       .then((res) => res.json())
       .then((res) => setItems(res));
   }, []);
