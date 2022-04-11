@@ -157,6 +157,11 @@ margin-top:10px;
     navigate("/course")
     setAuth(true);
   }
+  const getOTPFromServer =()=>{
+    setTimeout(() => {
+        getOTP()
+      }, 3000)
+  }
   const toggle = () => {
     setIsLoginOpened(wasOpened => !wasOpened);
     setIsVisible(wasOpened => !wasOpened)
@@ -195,7 +200,7 @@ margin-top:10px;
             <StyledH1>Login</StyledH1>
             <P>Or <span> <StyledA >create your account</StyledA></span></P>
             < Label ><Img src='https://media.istockphoto.com/vectors/flag-of-india-vector-id519611160?k=20&m=519611160&s=612x612&w=0&h=n8mmywhzMzcrRI4I50uKYEFVeS4wDfpOGQGEaCK6YPw=' /> +91</Label>
-            <StyledInput placeholder="Enter your mobile number" type="text" /> <Link>Get OTP</Link>
+            <StyledInput placeholder="Enter your mobile number" type="text" value={text} onChange={(e)=>setText(e.currentTarget.value)} /> <Link onClick={getOTPFromServer}>Get OTP</Link>
             <StyledInput1 placeholder="Enter OTP" type="text" />
             <StyledLogButton onClick={() => {
               pToggle();
