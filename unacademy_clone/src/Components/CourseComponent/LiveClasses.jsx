@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 const LiveClasses = () => {
   const [data,setData]=useState([]);
   useEffect(()=>{
-    fetch("http://localhost:3000/liveClassesCard/")
+    fetch("https://databaseunacademy.herokuapp.com/liveClassesCard/")
     .then(res=>res.json())
     .then(res=>{console.log(res)
       setData(res)})

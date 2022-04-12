@@ -14,7 +14,7 @@ const RatingCard = () => {
       }, []);
     
       const getData = () => {
-        fetch("http://localhost:3001/ratingcard")
+        fetch("https://databaseunacademy.herokuapp.com/ratingcard")
           .then((res) => res.json())
           .then((res) => setRateCard(res));
       };
@@ -23,7 +23,7 @@ const RatingCard = () => {
       }, []);
     
       const getData2 = () => {
-        fetch("http://localhost:3001/ratingcard2")
+        fetch("https://databaseunacademy.herokuapp.com/ratingcard2")
           .then((res) => res.json())
           .then((res) => setRateCard2(res));
       };

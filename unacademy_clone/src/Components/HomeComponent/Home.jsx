@@ -1,5 +1,3 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import styles from "./Home.module.css";
 import Stack from "@mui/material/Stack";
@@ -34,13 +32,14 @@ const Header = styled.div`
   }
 `;
 const Home = () => {
+  const { auth, setAuth } = useContext(AuthContext)
   const navigate = useNavigate()
   const redirectToExplore = () =>{
     navigate('/Explore')
   }
   return (
     <Container>
-      <Navbar />
+      {auth ? <NavBarTwo /> : <Navbar />}
       <Header>
         <div className={styles.headerh1}>
           <h1>
@@ -75,9 +74,10 @@ const Home = () => {
         <Cards style={{marginTop:100}}/>
         <MobileCard/>
         <Rating/>
-        <Footer/>
+
+    <Footer/>
     </Container>
-   
+
   );
 };
 
