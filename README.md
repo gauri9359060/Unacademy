@@ -27,3 +27,9 @@
 
 ## Login Page
 ![unacademy](https://user-images.githubusercontent.com/72353440/162500863-2e0574a2-07e6-4d9f-adae-6fd36a56b17d.png)
+
+## Home Page
+![home](https://user-images.githubusercontent.com/72353440/163008328-1cfa03e4-5743-40b0-a642-a206414e9116.png)
+
+## Course Page
+![subscription](https://user-images.githubusercontent.com/72353440/163008336-eeaf24d0-7048-4040-a188-067425e4d1c1.png)
