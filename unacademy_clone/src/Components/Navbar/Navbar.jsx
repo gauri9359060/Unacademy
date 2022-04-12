@@ -1,6 +1,7 @@
 
 import React from 'react'
 import styled from 'styled-components'
+import { Login } from '../Login/login'
 import LoginButton from './LoginButton'
 const NavbarWrapper = styled.nav`
     width:80%;
@@ -23,7 +24,8 @@ const Navbar = () => {
             <img src="https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=384" alt='unacademy logo'/>
         </div>
         <div>
-           <LoginButton/>
+        <Login/>
+           {/* <LoginButton/> */}
         </div>
     </NavbarWrapper>
   )

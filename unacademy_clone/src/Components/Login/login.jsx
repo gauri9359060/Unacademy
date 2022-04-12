@@ -51,14 +51,15 @@ color:black;
 
   const StyledForm = styled.form`
    width:50%;
+   margin-left:-20%;
    height:625px;
    background-color:white;
    
-   float:right;
+   ${'' /* float:right; */}
 `;
 
   const StyledDiv = styled.div`
-    width:50%;
+    width:0%;
     height:625px;
     background-color:black; 
     float:left; 
@@ -67,7 +68,6 @@ color:black;
 
   const StyledH1 = styled.h1`
    font-weight: 600;
-   rgb(69, 69, 69);
    margin-top:50px;
    margin-left:50px;
 

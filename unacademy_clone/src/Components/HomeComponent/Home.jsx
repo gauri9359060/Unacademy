@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import styles from "./Home.module.css";
 import Stack from "@mui/material/Stack";
@@ -8,6 +8,7 @@ import Navbar from "../Navbar/Navbar";
 import Cards from "./Cards";
 import MobileCard from "./MobileCard";
 import Rating from "./Rating";
+import Footer from "../explorepage/Footer";
 
 const Container = styled.div`
   width: 100%;
@@ -34,8 +35,8 @@ const Header = styled.div`
 `;
 const Home = () => {
   const navigate = useNavigate()
-  const explorePage =()=>{
-     navigate('/explore')
+  const redirectToExplore = () =>{
+    navigate('/Explore')
   }
   return (
     <Container>
@@ -53,7 +54,7 @@ const Home = () => {
                   variant="contained"
                   color="success"
                   style={{ marginTop: 70, padding: 15, width: 250,backgroundColor:"#08bd80" }}
-                  onClick={()=>navigate("/explore")}
+                  onClick={redirectToExplore}
                 >
                   <h3>Start learning</h3>
                 </Button>
@@ -74,7 +75,9 @@ const Home = () => {
         <Cards style={{marginTop:100}}/>
         <MobileCard/>
         <Rating/>
+        <Footer/>
     </Container>
+   
   );
 };
 
