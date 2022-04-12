@@ -80,7 +80,9 @@ const Explore = () => {
   };
   return (
     <Container className={styles.font}>
+
       {auth ? <NavBarTwo /> : <Navbar />}
+
       <Header>
         <h1 style={{ fontSize: 38, color: "#3C4852" }}>Choose your goal</h1>
         <SearchBox>

@@ -15,7 +15,9 @@ function App() {
   const {auth}=AuthContext
   return (
     <div className="App">
+
       <UserNavigation/>
+
 
     </div>
   );
