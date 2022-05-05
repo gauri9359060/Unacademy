@@ -74,13 +74,15 @@ const Explore = () => {
   }, []);
 
   const getData = () => {
-    fetch("http://localhost:3000/courses")
+    fetch("https://databaseunacademy.herokuapp.com/courses")
       .then((res) => res.json())
       .then((res) => setCourses(res));
   };
   return (
     <Container className={styles.font}>
+
       {auth ? <NavBarTwo /> : <Navbar />}
+
       <Header>
         <h1 style={{ fontSize: 38, color: "#3C4852" }}>Choose your goal</h1>
         <SearchBox>

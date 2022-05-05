@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 const ComingSoon = () => {
     const [comingSoon,setComingSoon]=useState([]);
     useEffect(()=>{
-        fetch("http://localhost:3000/comingSoon")
+        fetch("https://databaseunacademy.herokuapp.com/comingSoon")
         .then(res=>res.json())
         .then(res=>setComingSoon(res))
         .catch(err=>console.log(err))
