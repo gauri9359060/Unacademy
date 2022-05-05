@@ -2,6 +2,7 @@ import React ,{useContext, useState} from "react";
 import { useTheme } from "@mui/material/styles";
 import Drawer from "@mui/material/Drawer";
 
+
 import { AuthContext } from "../../Context/AuthContextProvider";
 import IconButton from "@mui/material/IconButton";
 import CloseTwoToneIcon from "@mui/icons-material/CloseTwoTone";
@@ -68,6 +69,7 @@ const Navbar = () => {
           />
         </div>
         <div>
+
           <button className={styles.loginBtn} onClick={handleDrawerOpen}>
             Login
           </button>
@@ -127,8 +129,9 @@ const Navbar = () => {
                   </div>
               </div>
           </form>
+
         </div>
-      </Drawer>
+   
     </>
   );
 };
