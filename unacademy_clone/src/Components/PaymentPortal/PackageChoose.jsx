@@ -1,7 +1,19 @@
 import { Button } from '@mui/material'
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import {useNavigate } from 'react-router-dom'
+import { course_plan, plan } from '../../Redux/Action'
 import styles from './styles.module.css'
 const PackageChoose = () => {
+    const navigate=useNavigate()
+    const dispatch = useDispatch();
+    const plan_name = useSelector(state => state.planName);
+    const getCourse = (name) => {
+        fetch(`http://localhost:3000/Price?type=${name}`)
+            .then(res => res.json())
+            .then(res => dispatch(course_plan(res)))
+            .catch(err => console.log(err))
+    }
     return (
         <div className={styles.Subscription} >
             <div className={styles.SubscriptionNav}>
@@ -9,7 +21,7 @@ const PackageChoose = () => {
             </div>
             <div className={styles.subsHead}>
                 <h5 className={styles.subsH5}>
-                    GATE & ESE
+                    UPSC CSE - GS
                 </h5>
                 <p className={styles.subsP}>Select a subscription plan that suits you</p>
             </div>
@@ -43,7 +55,12 @@ const PackageChoose = () => {
                         </ul>
                     </div>
                     <div className={styles.subsButtonDiv}>
-                        <button className={styles.packSelectBtn}>
+                        <button className={styles.packSelectBtn} onClick={()=>{
+                            dispatch(plan("plus"))
+                            getCourse(plan_name)
+                        }}
+                            onDoubleClick={() => { navigate('/timePeriod') }}
+                        >
                             Select PLUS
                         </button>
                     </div>
@@ -99,7 +116,12 @@ const PackageChoose = () => {
                     </div>
                     <div className={styles.buttons}>
 
-                    <button className={styles.packSelectBtn}>
+                        <button className={styles.packSelectBtn} onClick={() => {
+                            dispatch(plan("iconic"))
+                            getCourse(plan_name)
+                        }}
+                            onDoubleClick={() => { navigate('/timePeriod') }}
+                        >
                         Select ICONIC
                     </button>
                     <button className={styles.learnMoreBtn}>Learn More</button>
@@ -131,7 +153,12 @@ const PackageChoose = () => {
                         </li>
                     </ul>
                 </div>
-                <button className={styles.packSelectBtn} style={{margin:"2em"}}>
+                <button className={styles.packSelectBtn} style={{ margin: "2em" }} onClick={() => {
+                    dispatch(plan("lite"))
+                    getCourse(plan_name)
+                }}
+                    onDoubleClick={() => { navigate('/timePeriod') }}
+                >
                     Select LITE
                 </button>
             </div>

@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import styled from "styled-components";
-import NavbarTwo from "../Navbar/NavbarTwo";
+// import NavbarTwo from "../Navbar/NavbarTwo";
 import styles from "../Navbar/Navbar.css";
 import SearchIcon from "@mui/icons-material/Search";
 import PinnedSubheaderList from "./PinnedSubheaderList";
 import CourseCards from "./CourseCards";
 import Navbar from "../Navbar/Navbar";
+import { AuthContext } from "../../Context/AuthContextProvider";
+import NavBarTwo from "../Navbar/NavbarTwo";
 ;
 
 const Container = styled.div`
@@ -65,18 +67,22 @@ const ContentWrapper = styled.div`
 `
 const Explore = () => {
   const [courses, setCourses] = useState([]);
+  const {auth}=useContext(AuthContext)
+
   useEffect(() => {
     getData();
   }, []);
 
   const getData = () => {
-    fetch("http://localhost:3001/courses")
+    fetch("https://databaseunacademy.herokuapp.com/courses")
       .then((res) => res.json())
       .then((res) => setCourses(res));
   };
   return (
     <Container className={styles.font}>
-     <Navbar/>
+
+      {auth ? <NavBarTwo /> : <Navbar />}
+
       <Header>
         <h1 style={{ fontSize: 38, color: "#3C4852" }}>Choose your goal</h1>
         <SearchBox>
