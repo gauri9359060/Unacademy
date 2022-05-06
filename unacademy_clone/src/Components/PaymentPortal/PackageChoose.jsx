@@ -9,6 +9,7 @@ import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import CloseTwoToneIcon from "@mui/icons-material/CloseTwoTone";
 const PackageChoose = () => {
+
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const plan_name = useSelector((state) => state.planName);
@@ -49,6 +50,26 @@ const PackageChoose = () => {
             <div>
               <h3 className={styles.SubsH3}>plus</h3>
               <p className={styles.packP}>Basic plan to get you started</p>
+
+    const navigate=useNavigate()
+    const dispatch = useDispatch();
+    const plan_name = useSelector(state => state.planName);
+    const getCourse = (name) => {
+        fetch(`http://localhost:8000/Price?type=${name}`)
+            .then(res => res.json())
+            .then(res => dispatch(course_plan(res)))
+            .catch(err => console.log(err))
+    }
+    return (
+        <div className={styles.Subscription} >
+            <div className={styles.SubscriptionNav}>
+                <img src="https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=384" alt="" />
+            </div>
+            <div className={styles.subsHead}>
+                <h5 className={styles.subsH5}>
+                    UPSC CSE - GS
+                </h5>
+                <p className={styles.subsP}>Select a subscription plan that suits you</p>
             </div>
             <img
               src="https://unacademy-prod.s3.ap-southeast-1.amazonaws.com/web-cms/Plus_icon_9029cac986.png"

@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import Navbar from "../Navbar/Navbar";
+
 import Cards from "./Cards";
 import MobileCard from "./MobileCard";
 import Rating from "./Rating";

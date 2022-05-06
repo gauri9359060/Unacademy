@@ -7,7 +7,7 @@ import SlideshowOutlinedIcon from '@mui/icons-material/SlideshowOutlined';
 const Syllabus = () => {
   const [syllabusCourse,setSyllabusCourse]=useState([])
   useEffect(() => {
-    fetch("https://databaseunacademy.herokuapp.com/slbsCmpltn")
+    fetch(" http://localhost:8005/slbsCmpltn")
       .then(res => res.json())
       .then(res => setSyllabusCourse(res))
       .catch(err => console.log(err))
