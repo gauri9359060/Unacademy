@@ -69,8 +69,9 @@ const TimePeriod = () => {
           /> <TextField id="outlined-basic" placeholder='Have a referral Code?' height="48px"
             width= "280px" variant="outlined" sx={{marginRight:"24px"}} /></span>
           <button className={styles.paymentButton} onClick={()=>{
-            navigate('/MethodOfPayment')
-            // navigate('/paymentsuccess')
+
+            navigate('/proceedToPay')
+
           }}>
             Proceed to pay
           </button>
