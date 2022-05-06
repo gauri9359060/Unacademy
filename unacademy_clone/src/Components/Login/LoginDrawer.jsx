@@ -10,7 +10,8 @@ const LoginDrawer = ({state,setState,pToggle,setIsRegisterPresent,setPage}) => {
    
     const [goTORegister, setGoToRegister] = useState(false)
     const handleOnChange = (value, data, event, formattedValue) => {
-        setState(value);
+       const val = setState(value);
+       console.log(val)
     }
      
   return (

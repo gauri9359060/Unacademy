@@ -36,6 +36,7 @@ const Navbar = () => {
           />
         </div>
         <div>
+
           <button className={styles.loginBtn} onClick={handleDrawerOpen}>
             Login
           </button>
