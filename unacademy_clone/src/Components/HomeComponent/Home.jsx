@@ -3,10 +3,14 @@ import styles from "./Home.module.css";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import Navbar from "../Navbar/Navbar";
+import NavBarTwo from "../Navbar/NavbarTwo";
 import Cards from "./Cards";
 import MobileCard from "./MobileCard";
 import Rating from "./Rating";
 import Footer from "../explorepage/Footer";
+import { useContext } from "react";
+import { AuthContext } from "../../Context/AuthContextProvider";
+import { useNavigate } from "react-router-dom";
 
 const Container = styled.div`
   width: 100%;

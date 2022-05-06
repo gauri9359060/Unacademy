@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 const RecentlyStarted = () => {
     const [recent, setRecent] = useState([]);
     useEffect(() => {
-        fetch("https://databaseunacademy.herokuapp.com/recent")
+        fetch(" http://localhost:8005/recent")
             .then(res => res.json())
             .then(res => setRecent(res))
             .catch(err => console.log(err))
