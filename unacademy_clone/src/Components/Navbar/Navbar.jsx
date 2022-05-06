@@ -5,8 +5,6 @@ import IconButton from "@mui/material/IconButton";
 import CloseTwoToneIcon from "@mui/icons-material/CloseTwoTone";
 import styles from "./Navbar.module.css";
 import "react-phone-input-2/lib/bootstrap.css";
-
-
 import LoginDrawer from "../Login/LoginDrawer";
 import EmailDrwaer from "../Login/EmailDrwaer";
 const Navbar = () => {

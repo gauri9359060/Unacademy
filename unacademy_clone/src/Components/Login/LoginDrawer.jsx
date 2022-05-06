@@ -40,6 +40,7 @@ const LoginDrawer = ({state,setState,pToggle,setIsRegisterPresent,setPage}) => {
           style={{ width: 120, height: 50 }}
           onClick={() => {
             pToggle();
+            console.log(state)
             setIsRegisterPresent(true);
           }}
         >

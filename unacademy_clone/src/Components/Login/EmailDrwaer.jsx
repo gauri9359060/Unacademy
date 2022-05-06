@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from "./Login.module.css"
+import RegisterUser from './RegisterUser'
 const EmailDrwaer = ({pToggle,setIsRegisterPresent,setPage}) => {
+  const [goTORegister, setGoToRegister] = useState(false)
   return (
+    (goTORegister === true) ?
+      (<RegisterUser setGoToRegister={setGoToRegister} />) :
     <div className={styles.loginBox}>
             <h1>Login</h1>
             <p>
               or{" "}
-              <span className={styles.createAccount}>create your account</span>
+        <span className={styles.createAccount} onClick={() => setGoToRegister(true)}>create your account</span>
             </p>
             <form>
               <input
