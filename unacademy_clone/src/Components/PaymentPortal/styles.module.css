@@ -1,5 +1,9 @@
 /* Package chooser css */
 
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .SubscriptionNav{
     width: 80%;
     margin: auto;
@@ -8,9 +12,193 @@
     align-items: center;
     height: 56px;
 }
+.closeBtn{
+    background-color: none;
+    color: rgb(103, 102, 102);
+    font-size: 30px;
+    padding-left: 28px;
+    padding-top: 15px;
+    font-weight: 10;
+}
 
+.sidebar{
+    width: 80%;
+    margin-left:40px;
+    margin-top: 20px;
+}
+
+.sidebar h1{
+    color: rgb(99, 90, 90);
+}
+
+.paraDiv{
+    margin-top: 15px;
+    line-height: 20px;
+    color: #7A8B94;
+    font-size: 15px;
+}
+
+.planFlex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+.planFlex img{
+    width: 64px;
+}
+
+.innerFlex{
+    display: flex;
+    column-gap: 30px;
+    line-height: 20px;
+}
+
+.innerFlex p{
+    padding-top: 10px;
+    font-size: 15px;
+    color: #7A8B94;
+}
+
+.logo{
+    box-shadow: 8px 8px 8px 8px rgb(241, 243, 244);
+    height: 60px;
+}
+.logo img{
+    margin-left: 200px;
+    margin-top: 20px
+}
+.container{
+    padding-top: 60px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    column-gap: 20px;
+}
+.leftBox{
+    width: 65%;
+}
+.leftBox img{
+    width: 70px;
+}
+.leftBox > div{
+    display: flex;
+    column-gap: 200px;
+    line-height: 30px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px 10px rgb(245, 242, 242);
+}
+
+.HowItWorks{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 20px;
+    row-gap: 0px;
+    padding: 0px;
+}
+.HowItWorksInner img{
+    width: 50px;
+}
+.HowItWorks p{
+    font-size: 12px;
+    margin-top: 15px;
+}
+.HowItWorksInner{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    column-gap: 15px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.rightBox{
+    width: 30%;
+    text-align: center;
+}
+.rightBox > div{
+    text-align: start;
+    line-height: 27px;
+    box-shadow:0px 10px 10px 0px rgb(245, 242, 242) ;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.referral input{
+    height: 40px;
+    width: 280px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+.referral > div{
+    padding: 5px;
+}
+
+.referral img{
+    width: 20px;
+    padding-right: 20px;
+}
+
+.rightBox p{
+    font-size: 15px;
+}
+
+.rightBox h3{
+    color: #3C4852;
+}
+
+.continueBtn{
+    background-color: #08bd80;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-left: 190px;
+    cursor: pointer;
+}
+
+.continueBtn2{
+    border: none;
+    background-color: #08bd80;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px 50px 15px 50px;
+    margin-left: 37px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.cashHowItworks{
+    margin-top: 20px;
+}
+
+.number{
+    padding-left: 20px;
+    width: 20px;
+    color: #08bd80;
+    font-weight: 600;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url("https://static.uacdn.net/production/_next/static/images/payments/fancy_bullets.svg?q=75&w=48");
+}
+.dis{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.cashHowItworks p:nth-child(1){
+    font-size: 15px;
+}
+.cashHowItworks2{
+    display: flex;
+    width: 70%;
+    margin-top: 15px;
+}
 .subsHead{
-        /* text-align: center; */
     padding-bottom: 20px;
     text-align: center;
 }
@@ -62,7 +250,7 @@
      
 }
 .packP{
- font-weight: 600;
+    font-weight: 600;
     font-size: 16px;
     line-height: 150%;
     margin: 0px;
@@ -70,6 +258,7 @@
     font-weight: normal;
     text-align: left;
 }
+
 .CourseBenifits{
     display: flex;
     margin-bottom: 24px;

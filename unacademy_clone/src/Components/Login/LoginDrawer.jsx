@@ -8,6 +8,7 @@ import { Navigate, useNavigate } from 'react-router-dom';
 
 const LoginDrawer = ({state,setState,pToggle,setIsRegisterPresent,setPage}) => {
    
+    const [otp, setOtp] = useState(false)
     const [goTORegister, setGoToRegister] = useState(false)
     const handleOnChange = (value, data, event, formattedValue) => {
        const val = setState(value);
@@ -19,7 +20,10 @@ const LoginDrawer = ({state,setState,pToggle,setIsRegisterPresent,setPage}) => {
     (goTORegister === true) ?
     (<RegisterUser setGoToRegister={setGoToRegister}/>):
     (<div className={styles.loginBox}>
-    <h1>Login</h1>
+    {
+        (otp === true) ? <h1>Enter OTP</h1> : <h1>Login</h1>
+    }
+   
     <p>
       or{" "}
       <span className={styles.createAccount} onClick={()=>setGoToRegister(true)}>create your account</span>
@@ -33,6 +37,9 @@ const LoginDrawer = ({state,setState,pToggle,setIsRegisterPresent,setPage}) => {
         className={styles.phoneInput}
         placeholder="Enter your mobile number"
       />
+      <br/>
+
+      <input placeholder='       One time password' style={{height:50,width:300}}/>
 
       <div className={styles.loginInfo}>
         <button
@@ -56,6 +63,7 @@ const LoginDrawer = ({state,setState,pToggle,setIsRegisterPresent,setPage}) => {
   </div>
 )
   )
+  
 }
 
 export default LoginDrawer
