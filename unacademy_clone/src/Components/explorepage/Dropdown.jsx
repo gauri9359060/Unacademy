@@ -7,22 +7,21 @@ import Avatar from "@mui/material/Avatar";
 import MenuItem from "@mui/material/MenuItem";
 import styles from "./explore.module.css";
 import { AuthContext } from "../../Context/AuthContextProvider";
-import {useNavigate} from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const Dropdown = () => {
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
-  const navigate=useNavigate()
+  const navigate = useNavigate();
   const handleOpenUserMenu = (e) => {
     setAnchorElUser(e.currentTarget);
   };
 
-
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
-const {setAuth}=React.useContext(AuthContext)
+  const { setAuth } = React.useContext(AuthContext);
   return (
     <div style={{ position: "static", padding: 0, margin: -10, marginLeft: 5 }}>
       <Toolbar disableGutters>
@@ -52,10 +51,15 @@ const {setAuth}=React.useContext(AuthContext)
         >
           {settings.map((setting) => (
             <MenuItem key={setting} onClick={handleCloseUserMenu}>
-              <Typography textAlign="center" onClick={()=>{
-                setAuth(false)
-                navigate('/')
-              }}>{setting}</Typography>
+              <Typography
+                textAlign="center"
+                onClick={() => {
+                  setAuth(false);
+                  navigate("/");
+                }}
+              >
+                {setting}
+              </Typography>
             </MenuItem>
           ))}
         </Menu>

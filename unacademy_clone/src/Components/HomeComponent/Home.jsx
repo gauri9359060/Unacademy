@@ -7,6 +7,10 @@ import Cards from "./Cards";
 import MobileCard from "./MobileCard";
 import Rating from "./Rating";
 import Footer from "../explorepage/Footer";
+import NavBarTwo from "../Navbar/NavbarTwo";
+import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../../Context/AuthContextProvider";
 
 const Container = styled.div`
   width: 100%;
@@ -39,7 +43,7 @@ const Home = () => {
   }
   return (
     <Container>
-      {auth ? <NavBarTwo /> : <Navbar />}
+      {auth ? <NavBarTwo/> : <Navbar />}
       <Header>
         <div className={styles.headerh1}>
           <h1>
