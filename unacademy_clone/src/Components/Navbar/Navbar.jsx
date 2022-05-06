@@ -1,20 +1,18 @@
-import React ,{useContext, useState} from "react";
+import React,{ useState } from "react";
 import { useTheme } from "@mui/material/styles";
 import Drawer from "@mui/material/Drawer";
-
-
-import { AuthContext } from "../../Context/AuthContextProvider";
 import IconButton from "@mui/material/IconButton";
 import CloseTwoToneIcon from "@mui/icons-material/CloseTwoTone";
 import styles from "./Navbar.module.css";
-import PhoneInput from "react-phone-input-2";
-import 'react-phone-input-2/lib/bootstrap.css'
-import styledEngine from "@mui/styled-engine";
-import { Navigate, useNavigate } from "react-router-dom";
+import "react-phone-input-2/lib/bootstrap.css";
+
+
+import LoginDrawer from "../Login/LoginDrawer";
+import EmailDrwaer from "../Login/EmailDrwaer";
 const Navbar = () => {
   const theme = useTheme();
+
   const [open, setOpen] = React.useState(false);
-  const { getOTP, createOTP, setAuth } = useContext(AuthContext);
   const handleDrawerOpen = () => {
     setOpen(true);
   };
@@ -23,42 +21,11 @@ const Navbar = () => {
     setOpen(false);
   };
 
-  const [state,setState] = useState('');
-  const handleOnChange = (value, data, event, formattedValue) => {
-    setState(value);
-  }
-  const navigate = useNavigate()
+  const [state, setState] = useState("");
 
-  const [isVisible, setIsVisible] = useState(true);
-  const [isLoginOpened, setIsLoginOpened] = useState(false);
-  const [isRegisterPresent, setIsRegisterPresent] = useState(false);
-  const [isRegister, setIsRegister] = useState(false);
-  const OTPverification = (otp) => {
-    navigate("/course");
-    setAuth(true);
-  };
-  const toggle = () => {
-    setIsLoginOpened((wasOpened) => !wasOpened);
-    setIsVisible((wasOpened) => !wasOpened);
-  };
-  const pToggle = () => {
-    setAuth(true);
-    setIsLoginOpened((wasOpened) => !wasOpened);
-  }; // if (mobile.length === 10) {
-  //   setIsRegisterPresent(wasOpened => !wasOpened);
-  //   setIsLoginOpened(wasOpened => !wasOpened);
-  //   setTimeout(() => {
-  //     getOTP()
-  //   }, 5000)
-  // }
-  // else {
-  //   alert("invalid mobile No.")
-  // }
-  const ragisterCloser = () => {
-    setIsRegister((wasOpened) => !wasOpened);
-    setIsRegisterPresent((wasOpened) => !wasOpened);
-  };
+  const [page, setPage] = useState(true);
 
+  
   return (
     <>
       <div className={styles.navbar}>
@@ -100,40 +67,17 @@ const Navbar = () => {
           </IconButton>
         </div>
 
-        <div className={styles.loginBox}>
-          <h1>Login</h1>
-          <p>
-            or <span className={styles.createAccount}>create your account</span>
-          </p>
-          <form>            
-              <PhoneInput
-                country={"in"}
-                value={state}
-                onChange={()=>handleOnChange}
-                style={{marginTop:30}}
-                className={styles.phoneInput}
-                placeholder="Enter your mobile number"
-              />
-         
-              <div className={styles.loginInfo}>
-                  <button className={styles.loginBtn} style={{width:120,height:50}} onClick={() => {
-                pToggle();
-                setIsRegisterPresent(true);
-              }}>
-                      Login
-                  </button>
-                  <div>
-                      <button style={{border:"none",backgroundColor:"white"}}>
-                          <h5>Continue with email</h5>
-                      </button>
-                  </div>
-              </div>
-          </form>
-
-        </div>
-   
+        {
+          (page === true) ? (
+            <LoginDrawer setPage={setPage} state={state}/>
+        ) : (
+          <EmailDrwaer setPage={setPage}/>
+        )
+        }
+      </Drawer>
     </>
   );
 };
 
 export default Navbar;
+
