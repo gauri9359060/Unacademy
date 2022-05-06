@@ -1,5 +1,5 @@
 const express = require("express");
-
+const cors = require("cors")
 const mongoose = require("mongoose");
 const port = 8005
 const DB_url = "mongodb+srv://Ashish8923:ashu_8923@unacademy.upire.mongodb.net/Unacademy?retryWrites=true&w=majority"
@@ -17,7 +17,7 @@ const ratingCardController = require("./Components/RatingCard/ratingCard.control
 const ratingCard2Controller = require("./Components/RatingCard2/ratingCard2.controller")
 const recentCourseController = require("./Components/RecentCourses/recentCourse.controller")
 const slbsCmpltnController = require("./Components/SyllabusCompletion/syllabusCompletion.controller")
-
+require("dotenv")
 const app = express();
 
 const connect = () => {
@@ -25,6 +25,7 @@ const connect = () => {
 }
 
 app.use(express.json());
+app.use(cors())
 app.use("/educator", educatorController)
 app.use("/user", userController)
 app.use("/best", bestController)
@@ -43,6 +44,7 @@ app.use("/slbscmpltn", slbsCmpltnController)
 app.listen(port, async () => {
     try {
         await connect();
+        console.log("Connected To Mongoose")
         console.log(`connected to port: ${port}`)
     }
     catch (e) {

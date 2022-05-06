@@ -16,6 +16,7 @@ import Footer from '../explorepage/Footer'
 import NavBarTwo from '../Navbar/NavbarTwo'
 import Navbar from '../Navbar/Navbar'
 import { AuthContext } from '../../Context/AuthContextProvider'
+import LastBanner from './LastBanner'
 const CourseComp = () => {
   const { auth } = useContext(AuthContext)
   return (
@@ -36,6 +37,7 @@ const CourseComp = () => {
       <RecentlyStarted/>
       <BestLectures/>
       <PackageContainer/>
+      <LastBanner/>
       <Footer />
     </div>
   )

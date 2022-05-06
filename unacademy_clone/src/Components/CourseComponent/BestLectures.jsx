@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 const BestLectures = () => {
     const [best, setBest] = useState([]);
     useEffect(() => {
-        fetch("https://databaseunacademy.herokuapp.com/Best")
+        fetch(" http://localhost:8005/best")
             .then(res => res.json())
             .then(res => setBest(res))
             .catch(err => console.log(err))

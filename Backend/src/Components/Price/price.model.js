@@ -5,7 +5,7 @@ const priceSchema = new mongoose.Schema({
     months: { type: Number, required: true },
     price: { type: Number, required: true },
     saving: { type: String, required: true },
-    total: { type: Number, required: true },
+    total: { type: String, required: true },
     checked: { type: Boolean, required: true }
 })
 
