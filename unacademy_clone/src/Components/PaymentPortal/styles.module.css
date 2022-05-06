@@ -198,6 +198,57 @@
     width: 70%;
     margin-top: 15px;
 }
+.cardExpiry{
+    width: 300px;
+    height: 50px;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 6px;
+}
+.cvv{
+    width: 170px;
+    margin-left: 20px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid rgb(216, 214, 214);
+}
+.payBtn{
+    background-color: #08bd80;
+    border: none;
+    padding: 15px 50px 15px 50px;
+    margin-left: 100px;
+    color: #E9EEF2;
+    font-size: 15px;
+    font-weight: 600;
+}
+.selectBank{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+.selectBank > div{
+    width: 200px;
+}
+.bank{
+    display: flex;
+    column-gap: 20px;
+    border: 1px solid rgb(227, 225, 225);
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.bank img{
+    width: 30px;
+
+}
+.cardInput{
+    width: 500px;
+    margin-top: 20px;
+    border: 1px solid rgb(216, 214, 214);
+    height: 50px;
+    border-radius: 6px;
+}
 .subsHead{
     padding-bottom: 20px;
     text-align: center;

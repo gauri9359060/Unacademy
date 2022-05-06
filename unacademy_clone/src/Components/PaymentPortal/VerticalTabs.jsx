@@ -147,13 +147,54 @@ export default function VerticalTabs() {
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          Item Two
+                  
+                      <input type="number" placeholder="   Card number" className={styles.cardInput}/>
+                      <br/><br/>
+                      <span><input type="number" placeholder="    Valid through                    &nbsp;        &nbsp;     &nbsp; MM / YY " className={styles.cardExpiry}/><input  className={styles.cvv} placeholder="   CVV"/></span>
+                      <input placeholder="   Name on card" className={styles.cardInput}/>
+                      <br/><br/>
+                      <button className={styles.payBtn}>Pay</button>
+                 
         </TabPanel>
         <TabPanel value={value} index={2}>
-          Item Three
+          <div className={styles.selectBank}>
+                  <div style={{display:"flex"}} className={styles.bank}>
+                    <span>
+                      <img src="https://static.uacdn.net/app_icons/payments/sbi.png" alt="#"/>
+                    </span>
+                    <div>
+                      <p style={{marginTop:5}}>State Bank of India</p>
+                    </div>
+                  </div>
+                  <div style={{display:"flex"}} className={styles.bank}>
+                    <span>
+                      <img src="https://static.uacdn.net/app_icons/payments/icici.png" alt="#"/>
+                    </span>
+                    <div>
+                      <p style={{marginTop:5}}>ICICI Netbanking</p>
+                    </div>
+                  </div>
+                  <div style={{display:"flex"}} className={styles.bank}>
+                    <span>
+                      <img src="https://static.uacdn.net/app_icons/payments/hdfc.png" alt="#"/>
+                    </span>
+                    <div>
+                      <p style={{marginTop:5}}>HDFC Bank</p>
+                    </div>
+                  </div>
+                  <div style={{display:"flex"}} className={styles.bank}>
+                    <span>
+                      <img src="https://static.uacdn.net/app_icons/payments/axis.png" alt="#"/>
+                    </span>
+                    <div>
+                      <p style={{marginTop:5}}> Axis Bank </p>
+                    </div>
+                  </div>
+          </div>
+          <button className={styles.payBtn} style={{marginTop:40}}>Pay</button>
         </TabPanel>
         <TabPanel value={value} index={3}>
-          Item Four
+         Check For EMI
         </TabPanel>
         <TabPanel value={value} index={4}>
           <p>Pay your subscription amount in cash or DD</p>
@@ -209,10 +250,7 @@ export default function VerticalTabs() {
           </div>
         </TabPanel>
         <TabPanel value={value} index={5}>
-          Item Six
-        </TabPanel>
-        <TabPanel value={value} index={6}>
-          Item Seven
+          Check for NO cost loan
         </TabPanel>
       </Box>
     </div>
