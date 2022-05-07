@@ -405,13 +405,6 @@
     display: flex;
 }
 
-
-/* Payment Page css */
-
-.paymentMainContainer{
-    
-}
-
 /* time Period css */
 .PlanMainContainer{
     width: 80%;
@@ -602,4 +595,20 @@ font-weight: bold;
     background-color: #08bd80;
     transition: box-shadow 300ms ease-in-out 0s, transform 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s;
     margin-left: 24px;
+}
+.EMImain{
+    display: flex;
+    border: 1px solid rgb(213, 211, 211);
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    /* margin-left: 100px; */
+    width: 460px;
+    /* column-gap: 160px; */
+}
+.EMImain button{
+    border: none;
+    padding: 5px;
+    background-color: #fcc880;
+    color: #482a01;
 }
