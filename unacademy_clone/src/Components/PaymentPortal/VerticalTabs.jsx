@@ -153,13 +153,83 @@ export default function VerticalTabs() {
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          Item Two
+                  
+                      <input type="number" placeholder="   Card number" className={styles.cardInput}/>
+                      <br/><br/>
+                      <span><input type="number" placeholder="    Valid through                    &nbsp;        &nbsp;     &nbsp; MM / YY " className={styles.cardExpiry}/><input  className={styles.cvv} placeholder="   CVV"/></span>
+                      <input placeholder="   Name on card" className={styles.cardInput}/>
+                      <br/><br/>
+                      <button className={styles.payBtn}>Pay</button>
+                 
         </TabPanel>
         <TabPanel value={value} index={2}>
-          Item Three
+          <div className={styles.selectBank}>
+                  <div style={{display:"flex"}} className={styles.bank}>
+                    <span>
+                      <img src="https://static.uacdn.net/app_icons/payments/sbi.png" alt="#"/>
+                    </span>
+                    <div>
+                      <p style={{marginTop:5}}>State Bank of India</p>
+                    </div>
+                  </div>
+                  <div style={{display:"flex"}} className={styles.bank}>
+                    <span>
+                      <img src="https://static.uacdn.net/app_icons/payments/icici.png" alt="#"/>
+                    </span>
+                    <div>
+                      <p style={{marginTop:5}}>ICICI Netbanking</p>
+                    </div>
+                  </div>
+                  <div style={{display:"flex"}} className={styles.bank}>
+                    <span>
+                      <img src="https://static.uacdn.net/app_icons/payments/hdfc.png" alt="#"/>
+                    </span>
+                    <div>
+                      <p style={{marginTop:5}}>HDFC Bank</p>
+                    </div>
+                  </div>
+                  <div style={{display:"flex"}} className={styles.bank}>
+                    <span>
+                      <img src="https://static.uacdn.net/app_icons/payments/axis.png" alt="#"/>
+                    </span>
+                    <div>
+                      <p style={{marginTop:5}}> Axis Bank </p>
+                    </div>
+                  </div>
+          </div>
+          <button className={styles.payBtn} style={{marginTop:40}}>Pay</button>
         </TabPanel>
         <TabPanel value={value} index={3}>
-          Item Four
+         
+                  <h5>Debit Card EMI</h5>
+                  <div>
+                      <div className={styles.EMImain}>
+                          <div><p>Federal Bank - Debit card</p></div>
+                          <div style={{marginLeft:150}}><button>No cost EMI*</button></div>
+                      </div>
+                      <div className={styles.EMImain}>
+                          <div><p>Axis Bank - Debit card</p></div>
+                          <div style={{marginLeft:175}}><button>No cost EMI*</button></div>
+                      </div>
+                      <div className={styles.EMImain}>
+                          <div><p>Bank of baroda - Debit card</p></div>
+                          <div style={{marginLeft:140}}><button>No cost EMI*</button></div>
+                      </div>
+                      <div className={styles.EMImain}>
+                          <div><p>HDFC Bank - Debit card</p></div>
+                          <div style={{marginLeft:165}}><button>No cost EMI*</button></div>
+                      </div>
+                      <div className={styles.EMImain}>
+                          <div><p>ICICI Bank - Debit card</p></div>
+                          <div style={{marginLeft:170}}><button>No cost EMI*</button></div>
+                      </div>
+                      <h5 style={{paddingTop:20}}>Cardless EMI</h5>
+                      <div className={styles.EMImain}>
+                          <div><p>Bajaj Finserv - cardless</p></div>
+                          <div style={{marginLeft:170}}><button>No cost EMI*</button></div>
+                      </div>
+                     
+                  </div>
         </TabPanel>
         <TabPanel value={value} index={4}>
           <p>Pay your subscription amount in cash or DD</p>
@@ -221,10 +291,69 @@ export default function VerticalTabs() {
           </div>
         </TabPanel>
         <TabPanel value={value} index={5}>
-          Item Six
-        </TabPanel>
-        <TabPanel value={value} index={6}>
-          Item Seven
+        <p>
+            Pay your subscription amount in multiple parts, across days or
+            payment options
+          </p>
+          <br />
+          <h4>How it works</h4>
+          <div className={styles.HowItWorks}>
+            <div className={styles.HowItWorksInner}>
+              <div>
+                <img
+                  src="https://static.uacdn.net/web-cms/step1_97d2cd5213.png"
+                  alt="#"
+                />
+              </div>
+              <div>
+                <p>
+                  It’s simple, begin by chosing the number of parts you want to
+                  pay in
+                </p>
+              </div>
+            </div>
+            <div className={styles.HowItWorksInner}>
+              <div>
+                <img
+                  src="https://static.uacdn.net/web-cms/step2_a50e3c649d.png"
+                  alt="#"
+                />
+              </div>
+              <div>
+                <p>Get started by paying the first part payment today</p>
+              </div>
+            </div>
+            <div className={styles.HowItWorksInner}>
+              <div>
+                <img
+                  src="https://static.uacdn.net/web-cms/step3_79d03a52b3.png"
+                  alt="#"
+                />
+              </div>
+              <div>
+                <p>
+                  Pay remaining parts by the due date & get access to your
+                  subscription
+                </p>
+              </div>
+            </div>
+            <div style={{ marginTop: 20, display: "flex" }}>
+              <p style={{ fontSize: 13 }}>
+                Have questions?{" "}
+                <span
+                  style={{
+                    color: "#08bd80",
+                    fontWeight: 600,
+                    borderBottomStyle: "dotted",
+                    cursor: "pointer",
+                  }}
+                >
+                  Read our FAQ’s
+                </span>
+              </p>
+              <button className={styles.continueBtn}>Continue</button>
+            </div>
+          </div>
         </TabPanel>
       </Box>
     </div>

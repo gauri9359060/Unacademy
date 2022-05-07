@@ -73,6 +73,7 @@ const TimePeriod = () => {
                     ₹{ele.total}</p>
                   </span>
                 </div>
+
               )
             })
           }
