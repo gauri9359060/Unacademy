@@ -43,10 +43,10 @@ const Navbar = () => {
 
       <Drawer
         sx={{
-          width: `45%`,
+          width: `35%`,
           flexShrink: 0,
           "& .MuiDrawer-paper": {
-            width: `45%`,
+            width: `40%`,
           },
         }}
         anchor="right"

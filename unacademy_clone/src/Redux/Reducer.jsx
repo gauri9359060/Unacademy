@@ -1,25 +1,36 @@
-import { COURSEPLAN, PLAN } from "./ActionTypes"
+import { COURSEPLAN, PACKAGE, PHONE, PLAN } from "./ActionTypes"
 
-export const initState={
-    coursePlan:[],
-    planName:""
-
+export const initState = {
+    coursePlan: [],
+    planName: "",
+    packagePlan: {},
+    phone: ""
 }
-export const reducer = ((state=initState,{type,payload})=>{
+export const reducer = ((state = initState, { type, payload }) => {
 
-    switch(type){
+    switch (type) {
         case COURSEPLAN:
-            return{
+            return {
                 ...state,
-                coursePlan:payload
+                coursePlan: payload
             }
         case PLAN:
             return {
                 ...state,
                 planName: payload
             }
+        case PACKAGE:
+            return {
+                ...state,
+                packagePlan: payload
+            }
+        case PHONE:
+            return {
+                ...state,
+                phone: payload
+            }
 
-        default : return state    
+        default: return state
     }
 
 })

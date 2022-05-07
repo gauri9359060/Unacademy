@@ -4,20 +4,19 @@ const User = require("./user.model")
 const crudController = require("../../CrudController/crud.controller")
 const userController = crudController(User)
 const jwt = require('jsonwebtoken');
-
-const newToken = (user) => {
-    return jwt.sign({ user }, process.env.JWT_SECRET_KEY);
-}
+require("dotenv").config();
+const newToken = (user) => jwt.sign({user},'unacademy')
 
 router.post("/register",async(req,res)=>{
+    // console.log(process.env.JWT_SECRET_KEY)
     try {
-        let user = await UserModel.findOne({ phone: req.body.phone })
+        let user = await User.findOne({ phone: req.body.phone })
 
         if (user) {
-            return res.status(401).json("User already exist kindly logIn")
+            return res.status(401).json("User already exist")
         }
 
-        user = await UserModel.create(req.body)
+        user = await User.create(req.body)
         let token = newToken(user)
         res.status(201).json({ token })
     }
@@ -27,16 +26,12 @@ router.post("/register",async(req,res)=>{
 })
 router.post("/login", async (req, res) => {
     try {
-        let user = await UserModel.findOne({ phone: req.body.phone })
+        let user = await User.findOne({ phone: req.body.phone })
 
         if (!user) {
-            return res.status(401).json("OTP is incorrect")
+            return res.status(401).json("Number is Invalid")
         }
 
-        const matching = await user.checkPassword(req.body.OTP)
-        if (!matching) {
-            return res.status(401).json("OTP is incorrect")
-        }
         let token = newToken(user)
         res.status(201).json({ token })
 
@@ -45,6 +40,6 @@ router.post("/login", async (req, res) => {
         return res.status(500).json({ status: "failed", message: e.message })
     }
 })
-
+router.get("/",userController.getAll)
 
 module.exports = router

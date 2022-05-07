@@ -36,8 +36,8 @@ const CourseComp = () => {
       <ComingSoon/>
       <RecentlyStarted/>
       <BestLectures/>
-      <PackageContainer/>
-      <LastBanner/>
+      {/* <PackageContainer/>
+      <LastBanner/> */}
       <Footer />
     </div>
   )

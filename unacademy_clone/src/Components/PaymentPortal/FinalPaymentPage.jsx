@@ -1,8 +1,11 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import styles from "./styles.module.css";
 import VerticalTabs from "./VerticalTabs";
 const FinalPaymentPage = () => {
+  const packagePlan=useSelector(state=>state.packagePlan)
+  console.log(packagePlan)
   const navigate = useNavigate()
   return (
     <div>
@@ -17,7 +20,7 @@ const FinalPaymentPage = () => {
           <div style={{padding:30}}>
             <div >
               <h2>Gauri Patil</h2>
-              <span>+919359060996</span> &nbsp;&nbsp; • &nbsp;&nbsp;{" "}
+              <span>+918923083289</span> &nbsp;&nbsp; • &nbsp;&nbsp;{" "}
               <span>gaurip388@gmail.com</span> &nbsp;&nbsp;•&nbsp;&nbsp;{" "}
               <span>Maharashtra</span>
             </div>
@@ -34,9 +37,9 @@ const FinalPaymentPage = () => {
         </div>
         <div className={styles.rightBox}>
             <div>
-                <h3>UPSC CSE - GS - ICONIC</h3>
+                <h3 style={{textTransform:"uppercase"}}>UPSC CSE - GS - {packagePlan.type}</h3>
                 <h3>subscription</h3>
-                <p>36 months</p> 
+                <p>{packagePlan.months} months</p> 
                 <p style={{color:"#7A8B94"}}>Valid till 5 May, 2025 <span style={{color:"#08bd80",paddingLeft:40,cursor:"pointer"}} onClick={()=>navigate("/timePeriod")}>Change duration</span></p>
             </div>
             <div className={styles.referral}>
@@ -53,10 +56,10 @@ const FinalPaymentPage = () => {
                 </div>
             </div>
             <div style={{padding:20}}>
-              <p style={{marginBottom:10}}><span>Subscription fee</span><span style={{paddingLeft:120}}>₹153,790</span></p>
+              <p style={{marginBottom:10}}><span>Subscription fee</span><span style={{paddingLeft:120}}>₹{packagePlan.total}</span></p>
               <hr/>
               <span>
-              <h3 style={{marginTop:20}}>Total<span style={{fontSize:15,fontWeight:100}}>(Incl. of all taxes)</span><span style={{paddingLeft:80}}>₹153,790</span></h3>
+              <h3 style={{ marginTop: 20 }}>Total<span style={{ fontSize: 15, fontWeight: 100 }}>(Incl. of all taxes)</span><span style={{ paddingLeft: 80 }}>₹{packagePlan.total}</span></h3>
               
               </span>
 
