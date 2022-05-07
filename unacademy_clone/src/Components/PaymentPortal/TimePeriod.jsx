@@ -1,8 +1,9 @@
 import { TextField } from '@mui/material'
-import React from 'react'
+import React, { useContext } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Navigate, useNavigate } from 'react-router-dom'
-import { course_plan, plan } from '../../Redux/Action'
+import { AuthContext } from '../../Context/AuthContextProvider'
+import { course_plan, package_plan, plan } from '../../Redux/Action'
 import Slider from './slider'
 import styles from './styles.module.css'
 const TimePeriod = () => {
@@ -11,11 +12,23 @@ const TimePeriod = () => {
   const coursePlan = useSelector(state => state.coursePlan);
   const plan_name = useSelector(state => state.planName);
   const getCourse = (name) => {
-    fetch(`http://localhost:3000/Price?type=${name}`)
+    fetch(`http://localhost:8005/Price?type=${name}`)
       .then(res => res.json())
       .then(res => dispatch(course_plan(res)))
       .catch(err => console.log(err))
   }
+  const redirection = ()=>{
+    if(auth)
+      navigate('/proceedToPay')  
+       else   {
+    alert("kindly Login First")
+    navigate('/subscription')
+              }
+  }
+  const handlePlanType=(ele)=>{
+    dispatch(package_plan(ele))
+  }
+  const { auth } = useContext(AuthContext)
   return (
     <div className={styles.PlanMainContainer}>
       <div className={styles.slider}>
@@ -48,16 +61,19 @@ const TimePeriod = () => {
             coursePlan.map((ele) => {
               return (
                 <div className={styles.planTile}>
-                  <input type="checkbox" className={styles.planCheckBox} />
+                  <input type="radio" name='payment' onClick={()=>{
+                    handlePlanType(ele)
+                  }} className={styles.planCheckBox} />
                   <span className={styles.planSpan1}>
                   <h4 className={styles.months}>{ele.months} months</h4>
-                    <p className={styles.save}>{ele.save ? `save ${ele.save}`:""}</p></span>
+                    <p className={styles.save}>{+ele.save === 0 ? "" : `save ${ele.save}`}</p></span>
                   <span className={styles.planSpan2}>
                   <h4 className={styles.price}>{ele.price}/mo</h4>
                   <p className={styles.total}>Total
                     ₹{ele.total}</p>
                   </span>
                 </div>
+
               )
             })
           }
@@ -69,8 +85,9 @@ const TimePeriod = () => {
           /> <TextField id="outlined-basic" placeholder='Have a referral Code?' height="48px"
             width= "280px" variant="outlined" sx={{marginRight:"24px"}} /></span>
           <button className={styles.paymentButton} onClick={()=>{
-            navigate('/paymentsuccess')
-          }}>
+           
+            redirection()
+                }}>
             Proceed to pay
           </button>
         </div>

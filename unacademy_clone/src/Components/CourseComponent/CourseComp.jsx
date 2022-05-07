@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Banner from './Banner'
 import BestLectures from './BestLectures'
 import ComingSoon from './ComingSoon'
@@ -13,9 +13,15 @@ import RecentlyStarted from './RecentStarted'
 import styles from './styles.module.css'
 import Syllabus from './Syllabus'
 import Footer from '../explorepage/Footer'
+import NavBarTwo from '../Navbar/NavbarTwo'
+import Navbar from '../Navbar/Navbar'
+import { AuthContext } from '../../Context/AuthContextProvider'
+import LastBanner from './LastBanner'
 const CourseComp = () => {
+  const { auth } = useContext(AuthContext)
   return (
       <div>
+      {auth ? <NavBarTwo /> : <Navbar />}
     <div className={styles.section1}>
               <div style={{ height: "4em" }}></div>
       <Banner/>
@@ -30,7 +36,8 @@ const CourseComp = () => {
       <ComingSoon/>
       <RecentlyStarted/>
       <BestLectures/>
-      <PackageContainer/>
+      {/* <PackageContainer/>
+      <LastBanner/> */}
       <Footer />
     </div>
   )

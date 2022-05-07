@@ -1,0 +1,68 @@
+*{
+    font-family: AvertaStd,-apple-system,BlinkMacSystemFont,sans-serif!important;
+    padding: 0px;
+    margin: 0px;
+}
+.closeBtn{
+    background-color: none;
+    color: rgb(103, 102, 102);
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-weight: 10;
+}
+.loginBox{
+    width: 80%;
+    margin-left: 40px;
+    line-height: 40px;
+}
+
+.loginBox p{
+    font-size: 15px;
+}
+.createAccount{
+    cursor: pointer;
+    color: #08bd80;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom-style: dotted;
+}
+.loginInfo{
+    margin-top: 40px;
+    display: flex;
+    column-gap: 20%;
+}
+.loginBtn{
+    background-color: #08bd80;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 12px 20px 12px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.loginInfo h5{
+    border-bottom-style: dotted;
+    line-height: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.emailDrwerInput{
+    margin-top: 30px;
+    width: 96%;
+    height: 60px;
+    border:1px solid rgb(197, 195, 195);
+    border-radius: 6px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.bottomP{
+    padding-top: 290px;
+    padding-left: 60px;
+    color: gray;
+}
+.bottomP span{
+    color: black;
+}

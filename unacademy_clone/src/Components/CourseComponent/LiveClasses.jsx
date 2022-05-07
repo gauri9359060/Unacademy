@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import styles from './styles.module.css'
+import LiveTvIcon from '@mui/icons-material/LiveTv';
 const LiveClasses = () => {
   const [data,setData]=useState([]);
   useEffect(()=>{
-    fetch("https://databaseunacademy.herokuapp.com/liveClassesCard/")
+    fetch(" http://localhost:8005/liveClasses/")
     .then(res=>res.json())
     .then(res=>{console.log(res)
       setData(res)})
@@ -30,7 +31,8 @@ const LiveClasses = () => {
               return (
                 <div className={styles.liveTileContainer}>
                     <div className={styles.liveImg}>
-                      <img src={ele.image} alt="" />
+                      <img src={ele.image} alt="" className={styles.liveImages} />
+                    <img src='https://i.gifer.com/XhyP.gif' alt="" className={styles.liveIcon}/>
                     </div>
                     <div className={styles.liveDetails}>
                     <h5 className={styles.liveH5} >{ele.heading}</h5>

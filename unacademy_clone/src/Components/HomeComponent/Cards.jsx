@@ -8,7 +8,7 @@ const Cards = () => {
       }, []);
     
       const getData = () => {
-        fetch("https://databaseunacademy.herokuapp.com/cards")
+        fetch(" http://localhost:8005/card")
           .then((res) => res.json())
           .then((res) => setCard(res));
       };
