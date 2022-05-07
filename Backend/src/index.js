@@ -17,7 +17,7 @@ const ratingCardController = require("./Components/RatingCard/ratingCard.control
 const ratingCard2Controller = require("./Components/RatingCard2/ratingCard2.controller")
 const recentCourseController = require("./Components/RecentCourses/recentCourse.controller")
 const slbsCmpltnController = require("./Components/SyllabusCompletion/syllabusCompletion.controller")
-require("dotenv")
+require("dotenv").config();
 const app = express();
 
 const connect = () => {
@@ -27,7 +27,7 @@ const connect = () => {
 app.use(express.json());
 app.use(cors())
 app.use("/educator", educatorController)
-app.use("/user", userController)
+app.use("/users", userController)
 app.use("/best", bestController)
 app.use("/price", priceController)
 app.use("/card", cardController)

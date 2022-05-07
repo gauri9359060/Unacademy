@@ -5,6 +5,9 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import styles from "./styles.module.css";
 import { width } from "@mui/system";
+import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../../Context/AuthContextProvider";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -41,10 +44,13 @@ function a11yProps(index: number) {
 
 export default function VerticalTabs() {
   const [value, setValue] = React.useState(0);
-
+  const packagePlan = useSelector(state => state.packagePlan)
+  console.log(packagePlan)
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
-  };
+  };       
+  const { setSubscribed } = React.useContext(AuthContext)
+  const navigate = useNavigate();
 
   return (
     <div
@@ -253,7 +259,7 @@ export default function VerticalTabs() {
               <div className={styles.number}>2</div>
               <div className={styles.dis}>
                 <p style={{ fontWeight: 600, color: "#3C4852" }}>
-                  Pay ₹153,790 at ICICI Bank
+                  Pay ₹{packagePlan.total} at ICICI Bank
                 </p>
                 <p style={{ fontSize: 13, paddinTop: 20, color: "#3C4852" }}>
                   Print the receipt and visit your{" "}
@@ -275,7 +281,13 @@ export default function VerticalTabs() {
                 </p>
               </div>
             </div>
-            <button className={styles.continueBtn2}> Continue</button>
+            <button className={styles.continueBtn2} onClick={()=>{
+              let payload = {
+                status:true,
+                course:  packagePlan.type 
+              }
+              setSubscribed(payload)
+              navigate('/paymentsuccess')}}> Continue</button>
           </div>
         </TabPanel>
         <TabPanel value={value} index={5}>

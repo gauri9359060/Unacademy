@@ -4,7 +4,7 @@ import PhoneInput from "react-phone-input-2";
 import Otpvarification from './Otpvarification';
 const RegisterUser = ({setGoToRegister}) => {
   const [register,setRegister] = useState(false)
-
+ 
   return (
   
       (register === true) ? (<Otpvarification setGoToRegister={setGoToRegister}/>):

@@ -1,4 +1,4 @@
-import { COURSEPLAN, PLAN } from "./ActionTypes"
+import { COURSEPLAN, PACKAGE, PHONE, PLAN } from "./ActionTypes"
 
 export const course_plan = (data) => {
     return {
@@ -12,3 +12,16 @@ export const plan = (data) => {
         payload: data
     }
 }
+export const package_plan = (data) => {
+    return {
+        type: PACKAGE,
+        payload: data
+    }
+}
+export const get_phoneNo = (data) => {
+    return {
+        type: PHONE,
+        payload: data
+    }
+}
+
