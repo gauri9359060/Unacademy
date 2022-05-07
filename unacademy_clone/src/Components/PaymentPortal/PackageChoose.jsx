@@ -137,7 +137,7 @@ const PackageChoose = () => {
                         <button className={styles.packSelectBtn} onClick={() => {
                             dispatch(plan("iconic"))
                             getCourse(plan_name)
-                            navigate("/timePeriod")
+                            navigate("/timePeriod");
                         }}
                             
                         >
