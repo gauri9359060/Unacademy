@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors")
 const mongoose = require("mongoose");
-
+const port  = 8005
 const DB_url = "mongodb+srv://Ashish8923:ashu_8923@unacademy.upire.mongodb.net/Unacademy?retryWrites=true&w=majority"
 
 const educatorController = require("./Components/Educator/educators.controller")
@@ -41,11 +41,11 @@ app.use("/recent", recentCourseController)
 app.use("/slbscmpltn", slbsCmpltnController)
 
 
-app.listen(process.env.PORT, async () => {
+app.listen(port, async () => {
     try {
         await connect();
         console.log("Connected To Mongoose")
-        console.log(`connected to port: ${process.env.PORT}`)
+        console.log(`connected to port: ${port}`)
     }
     catch (e) {
         console.log(e.message)

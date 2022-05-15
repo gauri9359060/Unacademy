@@ -43,7 +43,7 @@ const Otpvarification = ({ setGoToRegister }) => {
       alert("Please fill all Credentials")
     }
     console.log(formData)
-    fetch("http://localhost:8005/users/register", {
+    fetch("https://unacademy-backend.herokuapp.com/users/register", {
       method: "POST",
       body: JSON.stringify(formData),
       headers: { "content-type": "application/json" }
