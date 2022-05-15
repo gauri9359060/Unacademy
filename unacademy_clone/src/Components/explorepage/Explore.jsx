@@ -74,7 +74,7 @@ const Explore = () => {
   }, []);
 
   const getData = () => {
-    fetch(" http://localhost:8005/courses")
+    fetch(" https://unacademy-backend.herokuapp.com/courses")
       .then((res) => res.json())
       .then((res) => setCourses(res));
   };
