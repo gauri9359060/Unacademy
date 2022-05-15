@@ -5,7 +5,7 @@ const Educators = () => {
   const [educators,setEducators]=useState([]);
   
   useEffect(()=>{
-    fetch(" http://localhost:8005/educator")
+    fetch(" https://unacademy-backend.herokuapp.com/educator")
     .then(res=>res.json())
     .then(res=>setEducators(res))
     .catch(err=>console.log(err))

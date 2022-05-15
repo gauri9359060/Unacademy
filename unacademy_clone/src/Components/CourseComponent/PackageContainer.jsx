@@ -6,7 +6,7 @@ const PackageContainer = () => {
     const navigate = useNavigate()
     const [pack, setPack] = useState([])
     useEffect(() => {
-        fetch(" http://localhost:8005/Price?type=plus")
+        fetch(" https://unacademy-backend.herokuapp.com/Price?type=plus")
             .then(res => res.json())
             .then(res => {
                 console.log("iconic:-", res)

@@ -12,7 +12,7 @@ const TimePeriod = () => {
   const coursePlan = useSelector(state => state.coursePlan);
   const plan_name = useSelector(state => state.planName);
   const getCourse = (name) => {
-    fetch(`http://localhost:8005/Price?type=${name}`)
+    fetch(` https://unacademy-backend.herokuapp.com/Price?type=${name}`)
       .then(res => res.json())
       .then(res => dispatch(course_plan(res)))
       .catch(err => console.log(err))
