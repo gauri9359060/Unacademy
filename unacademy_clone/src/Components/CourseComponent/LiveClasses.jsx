@@ -4,7 +4,7 @@ import LiveTvIcon from '@mui/icons-material/LiveTv';
 const LiveClasses = () => {
   const [data,setData]=useState([]);
   useEffect(()=>{
-    fetch(" http://localhost:8005/liveClasses/")
+    fetch(" https://unacademy-backend.herokuapp.com/liveClasses/")
     .then(res=>res.json())
     .then(res=>{console.log(res)
       setData(res)})
